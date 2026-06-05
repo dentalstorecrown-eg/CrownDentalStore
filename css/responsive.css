@@ -590,6 +590,187 @@
   }
 }
 
+/* Extra Small Screens (320px - Small phones) */
+@media (max-width: 320px) {
+  :root {
+    --font-size-base: 14px;
+    --font-size-lg: 16px;
+    --font-size-xl: 18px;
+    --spacing-base: 0.75rem;
+    --spacing-lg: 1rem;
+  }
+
+  html {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 0 var(--spacing-sm);
+  }
+
+  .navbar-brand {
+    font-size: var(--font-size-lg);
+  }
+
+  .hero-image {
+    max-width: 250px;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    padding: var(--spacing-sm) var(--spacing-base);
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Touch-Friendly Optimization for All Mobile Devices */
+@media (hover: none) and (pointer: coarse) {
+  /* Ensure all interactive elements are at least 44x44px for touch */
+  .btn,
+  .navbar-icon,
+  .navbar-toggle,
+  button,
+  a,
+  input[type="button"],
+  input[type="submit"],
+  select {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Remove hover effects on touch devices and use active states instead */
+  .btn:hover {
+    transform: none;
+  }
+
+  .btn:active {
+    opacity: 0.8;
+    transform: scale(0.98);
+  }
+
+  /* Improve form input touch targets */
+  input[type="text"],
+  input[type="email"],
+  input[type="search"],
+  input[type="password"],
+  textarea,
+  select {
+    min-height: 44px;
+    font-size: 16px; /* Prevents iOS zoom on input focus */
+    padding: var(--spacing-sm) var(--spacing-base);
+  }
+
+  /* Better spacing between form elements on mobile */
+  .form-group {
+    margin-bottom: var(--spacing-lg);
+  }
+
+  .form-group label {
+    margin-bottom: var(--spacing-sm);
+    display: block;
+  }
+
+  /* Improve card clickability */
+  .card {
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+  }
+
+  .card:active {
+    box-shadow: var(--shadow-lg);
+    transform: scale(0.98);
+  }
+
+  /* Improve search dropdown on touch */
+  .search-dropdown-item {
+    min-height: 48px;
+    padding: var(--spacing-base) var(--spacing-lg);
+  }
+
+  .navbar-nav a {
+    padding: var(--spacing-base) 0;
+    display: block;
+  }
+}
+
+/* Improve responsiveness for landscape orientation */
+@media (max-height: 500px) and (orientation: landscape) {
+  .navbar {
+    padding: var(--spacing-xs) 0;
+  }
+
+  .hero {
+    padding: 40px var(--spacing-base) 30px;
+    margin-top: 60px;
+  }
+
+  .hero-image {
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .hero-content h1 {
+    font-size: var(--font-size-xl);
+  }
+
+  .hero-content p {
+    font-size: var(--font-size-sm);
+    margin-bottom: var(--spacing-base);
+  }
+
+  .navbar-brand img {
+    height: 30px;
+  }
+
+  .section {
+    padding: var(--spacing-base) 0;
+  }
+}
+
+/* Better image scaling for all screen sizes */
+@media (max-width: 768px) {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .hero-image,
+  .card-image,
+  .product-main-image {
+    object-fit: contain;
+  }
+}
+
+/* Text readability optimization */
+@media (max-width: 480px) {
+  /* Ensure line height is comfortable on small screens */
+  body {
+    line-height: 1.7;
+  }
+
+  p {
+    line-height: 1.6;
+  }
+
+  .btn-block,
+  .product-actions .btn {
+    margin-bottom: var(--spacing-sm);
+  }
+}
+
+/* Optimize for reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 /* Dark Mode Support (Optional - for future enhancement) */
 @media (prefers-color-scheme: dark) {
   /* Uncomment to enable dark mode
