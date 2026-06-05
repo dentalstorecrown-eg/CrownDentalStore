@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Crown Dental Store - Premium dental tools and supplies. We provide high-quality products for dentists and dental clinics worldwide. International quality with competitive prices.">
+  <meta name="keywords" content="Crown, Dental Tools, Dental Supplies, Dental Equipment, Professional Dental Products">
+  <title>Crown Dental Store</title>
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/logo/crown-chatbot-icon.png">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="navbar-container container">
+      <div class="navbar-brand">
+        <img src="images/logo/crown-chatbot-icon.png" alt="Crown Dental Store Logo" class="navbar-logo">
+        <span>Crown Dental Store</span>
+      </div>
+
+      <button class="navbar-toggle" id="navbar-toggle">☰</button>
+
+      <ul class="navbar-nav" id="navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="about-contact.html">About & Contact</a></li>
+      </ul>
+
+      <div class="navbar-icons">
+        <a href="https://www.facebook.com/share/1H798BjZV2/" target="_blank" class="navbar-icon" title="Facebook" style="text-decoration: none; cursor: pointer; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center;"><img src="images/social/facebook.svg" alt="Facebook" style="width: 100%; height: 100%; object-fit: contain;"></a>
+        <a href="https://www.instagram.com/crown.dentalstore?igsh=MWJqNnlodHkzOGtucQ==" target="_blank" class="navbar-icon" title="Instagram" style="text-decoration: none; cursor: pointer; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center;"><img src="images/social/instagram.svg" alt="Instagram" style="width: 100%; height: 100%; object-fit: contain;"></a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="container">
+      <img src="images/logo/crown-logo.png" alt="Crown Dental Store" class="hero-image">
+      <div class="hero-content">
+        <h1>Professional Dental Tools & Supplies</h1>
+        <p>Premium products for dentists and dental clinics at competitive prices</p>
+        <div class="hero-buttons">
+          <a href="products.html" class="btn btn-primary btn-lg">Browse Products</a>
+          <a href="#featured-products" class="btn btn-outline btn-lg" style="border-color: white; color: white;">Featured Products</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEARCH BAR -->
+  <section class="search-container">
+    <div class="container">
+      <div class="search-box">
+        <input type="text" id="home-search" placeholder="Search for products..." data-search-dropdown>
+        <button class="btn btn-primary">Search</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED CATEGORIES -->
+  <section class="section container">
+    <div class="section-title">
+      <h2>Main Categories</h2>
+      <p>Explore different types of dental tools and supplies</p>
+    </div>
+
+    <div class="categories-grid">
+      <a href="products.html?category=Orthodontics" class="category-card">
+        <h3>Orthodontics</h3>
+      </a>
+      <a href="products.html?category=Endodontics" class="category-card">
+        <h3>Endodontics</h3>
+      </a>
+      <a href="products.html?category=Restorative" class="category-card">
+        <h3>Restorative</h3>
+      </a>
+      <a href="products.html?category=Implant" class="category-card">
+        <h3>Implant</h3>
+      </a>
+    </div>
+  </section>
+
+  <!-- FEATURED PRODUCTS -->
+  <section class="section container" id="featured-products">
+    <div class="section-title">
+      <h2>Featured Products</h2>
+      <p>Our best selection of dental tools and supplies</p>
+    </div>
+
+    <div class="products-grid" id="featured-products-grid">
+      <!-- Products will be populated by JavaScript -->
+    </div>
+
+    <div style="text-align: center; margin-top: var(--spacing-2xl);">
+      <a href="products.html" class="btn btn-primary btn-lg">View All Products</a>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="section" style="background-color: var(--color-bg-light);">
+    <div class="container">
+      <div class="section-title">
+        <h2>Why Choose Us</h2>
+        <p>The first choice for dentists and dental clinics</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon"></div>
+          <h3>Premium Quality Products</h3>
+          <p>We select the best international brands to ensure product quality</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"></div>
+          <h3>Fast Delivery</h3>
+          <p>Quick and safe delivery to all locations worldwide</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"></div>
+          <h3>Competitive Prices</h3>
+          <p>Best prices with guaranteed product quality</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"></div>
+          <h3>Excellent Customer Support</h3>
+          <p>Specialized support team to help you at all times</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA SECTION -->
+  <section class="section container" style="text-align: center;">
+    <h2>Have Questions or Need Information?</h2>
+    <p style="font-size: var(--font-size-lg); margin: var(--spacing-lg) 0;">Contact us via phone, WhatsApp, or email</p>
+    <div style="display: flex; gap: var(--spacing-base); justify-content: center; flex-wrap: wrap;">
+      <a href="tel:+201000000000" class="btn btn-primary btn-lg">📞 Call Us</a>
+      <a href="https://wa.me/201000000000?text=Hello" class="btn btn-success btn-lg"><img src="images/social/whatsapp_style_icon.svg" alt="WhatsApp" class="btn-icon"> WhatsApp</a>
+      <a href="about-contact.html" class="btn btn-outline btn-lg">✉️ Contact Us</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Crown Dental Store</h3>
+        <p>Specialists in providing high-quality dental tools and supplies for dentists and dental clinics.</p>
+      </div>
+
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="categories.html">Categories</a></li>
+          <li><a href="about-contact.html">About & Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Categories</h3>
+        <ul>
+          <li><a href="products.html">Orthodontics</a></li>
+          <li><a href="products.html">Restorative Materials</a></li>
+          <li><a href="products.html">Endodontics</a></li>
+          <li><a href="products.html">Other Supplies</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Contact Us</h3>
+        <div class="footer-contact">
+          <span>📞</span>
+          <span>+201000000000</span>
+        </div>
+        <div class="footer-contact">
+          <img src="images/social/whatsapp_style_icon.svg" alt="WhatsApp" class="footer-icon">
+          <span>WhatsApp</span>
+        </div>
+        <div class="footer-contact">
+          <span>✉️</span>
+          <span>info@crowndentalstore.com</span>
+        </div>
+        <div class="footer-contact">
+          <span>📍</span>
+          <span><a href="https://maps.google.com/?q=Mansoura,Egypt" target="_blank" style="color: inherit; text-decoration: none;">Mansoura - Egypt</a></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>Crown Dental Store 2026©</p>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button (will be created by JS) -->
+
+  <!-- JavaScript Files -->
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/search-enhanced.js"></script>
+  <script src="js/chatbot.js"></script>
+  <script>
+    // HOME PAGE SEARCH FUNCTIONALITY
+    document.addEventListener('DOMContentLoaded', function() {
+      const searchInput = document.getElementById('home-search');
+      const searchBtn = document.querySelector('.search-container .btn');
+
+      if (searchBtn) {
+        searchBtn.addEventListener('click', performHomeSearch);
+      }
+
+      if (searchInput) {
+        searchInput.addEventListener('keypress', function(e) {
+          if (e.key === 'Enter') {
+            performHomeSearch();
+          }
+        });
+      }
+    });
+
+    function performHomeSearch() {
+      const searchInput = document.getElementById('home-search');
+      if (!searchInput || !searchInput.value.trim()) {
+        alert('Please enter a search term');
+        return;
+      }
+
+      const searchTerm = encodeURIComponent(searchInput.value.trim());
+      window.location.href = `products.html?search=${searchTerm}`;
+    }
+  </script>
+  <script>
+    // Load featured products on home page
+    document.addEventListener('DOMContentLoaded', function() {
+      const featured = products.slice(0, 6);
+      const grid = document.getElementById('featured-products-grid');
+
+      if (grid) {
+        grid.innerHTML = featured.map(product => createProductCard(product)).join('');
+      }
+    });
+  </script>
+</body>
+</html>
