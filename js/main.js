@@ -148,22 +148,97 @@ function setActiveNavLink() {
    GEOLOCATION SERVICE - DETECT USER LOCATION
    ============================================================= */
 
-function initializeGeolocation() {
-  if (!('geolocation' in navigator) || !contactInfo.enableGeolocation) return;
+function getGeolocationOptions(fresh) {
+  return {
+    enableHighAccuracy: true,
+    timeout: fresh ? 15000 : 12000,
+    maximumAge: fresh ? 0 : 300000
+  };
+}
+
+function requestUserLocation(onSuccess, onError, fresh) {
+  if (!('geolocation' in navigator) || !contactInfo.enableGeolocation) {
+    if (onError) onError();
+    return;
+  }
 
   navigator.geolocation.getCurrentPosition(
     function(position) {
       saveUserLocation(position.coords.latitude, position.coords.longitude);
+      if (onSuccess) onSuccess(position);
+    },
+    function(error) {
+      if (onError) onError(error);
+    },
+    getGeolocationOptions(fresh)
+  );
+}
+
+function initializeGeolocation() {
+  if (!('geolocation' in navigator) || !contactInfo.enableGeolocation) return;
+
+  // Request location as soon as the visitor joins (works when browser allows it)
+  requestUserLocation(
+    function() {
+      hideLocationPrompt();
     },
     function() {
-      // Permission denied or unavailable — routing still works via Google Maps
-    },
-    {
-      enableHighAccuracy: true,
-      timeout: 12000,
-      maximumAge: 300000
+      showLocationPromptIfNeeded();
     }
   );
+
+  // On mobile, also show a clear prompt so the user can grant access with one tap
+  if (isMobileDevice()) {
+    setTimeout(showLocationPromptIfNeeded, 800);
+  }
+}
+
+function isMobileDevice() {
+  return window.matchMedia('(max-width: 768px)').matches ||
+    /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
+}
+
+function hideLocationPrompt() {
+  const prompt = document.getElementById('location-prompt');
+  if (prompt) prompt.classList.add('is-hidden');
+}
+
+function showLocationPromptIfNeeded() {
+  if (!('geolocation' in navigator) || !contactInfo.enableGeolocation) return;
+  if (getUserLocation()) return;
+  if (sessionStorage.getItem('locationPromptDismissed') === 'true') return;
+  if (document.getElementById('location-prompt')) return;
+
+  const prompt = document.createElement('div');
+  prompt.id = 'location-prompt';
+  prompt.className = 'location-prompt';
+  prompt.setAttribute('role', 'dialog');
+  prompt.setAttribute('aria-label', 'Location access');
+  prompt.innerHTML = `
+    <p>📍 Allow location access to get turn-by-turn directions to Crown Dental Store in Mansoura.</p>
+    <div class="location-prompt-actions">
+      <button type="button" class="btn btn-primary" id="location-allow-btn">Allow Location</button>
+      <button type="button" class="btn btn-outline" id="location-dismiss-btn">Not Now</button>
+    </div>
+  `;
+  document.body.appendChild(prompt);
+
+  document.getElementById('location-allow-btn').addEventListener('click', function() {
+    requestUserLocation(
+      function() {
+        hideLocationPrompt();
+      },
+      function() {
+        hideLocationPrompt();
+      },
+      true
+    );
+  });
+
+  document.getElementById('location-dismiss-btn').addEventListener('click', function() {
+    sessionStorage.setItem('locationPromptDismissed', 'true');
+    hideLocationPrompt();
+  });
 }
 
 function saveUserLocation(latitude, longitude) {
@@ -195,29 +270,36 @@ function buildDirectionsUrl(originLat, originLng) {
 function openDirectionsToStore(event) {
   if (event) event.preventDefault();
 
-  const userLoc = getUserLocation();
-  if (userLoc) {
-    window.open(buildDirectionsUrl(userLoc.latitude, userLoc.longitude), '_blank', 'noopener');
+  function openWithOrigin(lat, lng) {
+    const url = (lat != null && lng != null)
+      ? buildDirectionsUrl(lat, lng)
+      : buildDirectionsUrl();
+    window.open(url, '_blank', 'noopener');
+  }
+
+  if ('geolocation' in navigator && contactInfo.enableGeolocation) {
+    requestUserLocation(
+      function(position) {
+        openWithOrigin(position.coords.latitude, position.coords.longitude);
+      },
+      function() {
+        const cached = getUserLocation();
+        if (cached) {
+          openWithOrigin(cached.latitude, cached.longitude);
+        } else {
+          openWithOrigin();
+        }
+      },
+      true
+    );
     return;
   }
 
-  if ('geolocation' in navigator) {
-    navigator.geolocation.getCurrentPosition(
-      function(position) {
-        saveUserLocation(position.coords.latitude, position.coords.longitude);
-        window.open(
-          buildDirectionsUrl(position.coords.latitude, position.coords.longitude),
-          '_blank',
-          'noopener'
-        );
-      },
-      function() {
-        window.open(buildDirectionsUrl(), '_blank', 'noopener');
-      },
-      { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
-    );
+  const userLoc = getUserLocation();
+  if (userLoc) {
+    openWithOrigin(userLoc.latitude, userLoc.longitude);
   } else {
-    window.open(buildDirectionsUrl(), '_blank', 'noopener');
+    openWithOrigin();
   }
 }
 

@@ -53,6 +53,12 @@
     max-height: 16px !important;
   }
 
+  .location-prompt {
+    top: 64px;
+    width: calc(100% - 16px);
+    padding: var(--spacing-sm) var(--spacing-base);
+  }
+
   /* Navbar */
   .navbar {
     padding: var(--spacing-sm) 0;

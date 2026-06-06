@@ -1338,11 +1338,12 @@ a:hover {
   text-decoration: none;
 }
 
-/* Floating Get Directions button */
+/* Floating Get Directions button — bottom-left on all screen sizes */
 .floating-directions {
   position: fixed;
   bottom: var(--spacing-lg);
-  right: var(--spacing-lg);
+  left: var(--spacing-lg);
+  right: auto;
   width: 52px;
   height: 52px;
   min-width: 52px;
@@ -1364,6 +1365,52 @@ a:hover {
   border: none;
 }
 
+/* Location permission prompt (mobile on first visit) */
+.location-prompt {
+  position: fixed;
+  top: 72px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 24px);
+  max-width: 380px;
+  background: white;
+  padding: var(--spacing-base) var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-xl);
+  z-index: 10001;
+  border: 2px solid var(--color-primary);
+  animation: slideDown 0.35s ease;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateX(-50%) translateY(-12px); }
+  to { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+.location-prompt p {
+  margin: 0 0 var(--spacing-sm);
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+.location-prompt-actions {
+  display: flex;
+  gap: var(--spacing-sm);
+  flex-wrap: wrap;
+}
+
+.location-prompt-actions .btn {
+  flex: 1;
+  min-width: 0;
+  padding: var(--spacing-sm) var(--spacing-base);
+  font-size: var(--font-size-sm);
+}
+
+.location-prompt.is-hidden {
+  display: none;
+}
+
 .floating-directions-icon {
   font-size: 22px;
   line-height: 1;
@@ -1376,8 +1423,8 @@ a:hover {
 }
 
 [dir="rtl"] .floating-directions {
-  right: auto;
-  left: var(--spacing-lg);
+  left: auto;
+  right: var(--spacing-lg);
 }
 
 /* Mobile-safe spacing for buttons and content */
