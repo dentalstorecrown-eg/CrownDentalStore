@@ -11,6 +11,24 @@
     --spacing-2xl: 2rem;
   }
 
+  .container,
+  .section.container {
+    padding-left: max(16px, var(--spacing-base));
+    padding-right: max(16px, var(--spacing-base));
+  }
+
+  .page-content {
+    padding-bottom: 90px;
+  }
+
+  .card-body {
+    padding: var(--spacing-sm) max(10px, var(--spacing-sm));
+  }
+
+  .card-actions {
+    padding: 0 4px;
+  }
+
   /* Navbar */
   .navbar {
     padding: var(--spacing-sm) 0;
@@ -226,10 +244,10 @@
     gap: var(--spacing-lg);
   }
 
-  /* Footer */
-  .footer-content {
-    grid-template-columns: 1fr 1fr;
-    gap: var(--spacing-base);
+  /* Home footer on tablet */
+  .footer-home .footer-content {
+    grid-template-columns: 1fr;
+    text-align: center;
   }
 
   /* About & Contact */
@@ -320,9 +338,62 @@
     --spacing-xl: 1rem;
   }
 
-  /* Container */
+  /* Container - extra side margin so buttons don't touch screen edges */
   .container {
-    padding: 0 var(--spacing-base);
+    padding-left: max(18px, var(--spacing-base));
+    padding-right: max(18px, var(--spacing-base));
+  }
+
+  .page-content {
+    padding-bottom: 90px;
+  }
+
+  .section.container {
+    padding-left: max(18px, var(--spacing-base));
+    padding-right: max(18px, var(--spacing-base));
+  }
+
+  .cta-buttons {
+    padding: 0 max(12px, var(--spacing-sm));
+    gap: var(--spacing-sm);
+  }
+
+  .cta-buttons .btn {
+    min-width: 0;
+    flex: 1 1 auto;
+    max-width: 100%;
+  }
+
+  .hero-buttons {
+    padding: 0 var(--spacing-sm);
+    width: 100%;
+  }
+
+  .hero-buttons .btn {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .card-body {
+    padding: var(--spacing-sm) max(10px, var(--spacing-sm));
+  }
+
+  .card-actions {
+    padding: 0 2px;
+  }
+
+  .category-card {
+    margin: 0 2px;
+  }
+
+  .controls {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  .breadcrumb {
+    margin-left: 0;
+    margin-right: 0;
   }
 
   /* Navbar */
@@ -505,28 +576,46 @@
     font-size: 30px;
   }
 
-  /* Footer */
-  .footer {
-    padding: var(--spacing-base) 0 var(--spacing-xs);
-    margin-top: var(--spacing-base);
+  /* Home footer - mobile optimized */
+  .footer-home {
+    padding: var(--spacing-lg) max(16px, var(--spacing-base)) var(--spacing-sm);
+    margin-top: var(--spacing-lg);
   }
 
-  .footer-content {
+  .footer-home .footer-content {
     grid-template-columns: 1fr;
-    gap: var(--spacing-sm);
-    padding: var(--spacing-sm);
-    margin-bottom: var(--spacing-xs);
+    gap: var(--spacing-base);
+    padding: 0;
+    text-align: center;
   }
 
-  .footer-section h3 {
+  .footer-home .footer-section {
+    padding: 0 var(--spacing-xs);
+  }
+
+  .footer-home .footer-section h3 {
+    font-size: var(--font-size-base);
+    margin-bottom: var(--spacing-sm);
+  }
+
+  .footer-home .footer-section > p {
     font-size: var(--font-size-sm);
-    margin-bottom: var(--spacing-xs);
+    line-height: 1.5;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .footer-bottom {
-    padding-top: var(--spacing-xs);
-    padding-left: var(--spacing-sm);
-    padding-right: var(--spacing-sm);
+  .footer-home .footer-quick-links {
+    justify-content: center;
+  }
+
+  .footer-home .footer-contact-row {
+    justify-content: center;
+  }
+
+  .footer-home .footer-bottom {
+    padding-top: var(--spacing-sm);
     font-size: var(--font-size-xs);
   }
 

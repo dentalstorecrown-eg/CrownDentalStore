@@ -64,8 +64,8 @@ const dentalGuideData = {
     }
   },
   en: {
-    greeting: "Hello! 👋 I'm your Crown Dental assistant. Ask me about dental care, our products, and how we can help!",
-    placeholder: "Ask me about dental care, products, or anything...",
+    greeting: "Welcome to Crown Dental Store! 👋\n\nI'm your professional dental guide and store assistant. I can help with:\n• Clinical dental advice & oral health\n• Our full product catalog & prices\n• Categories, ordering & delivery\n• Contact info & store hours\n\nHow may I assist you today?",
+    placeholder: "Ask about dental care, products, orders...",
     send: "Send",
     close: "Close",
     faq: {
@@ -127,27 +127,89 @@ const dentalGuideData = {
       },
       "Shipping": {
         question: "Do you offer delivery?",
-        answer: "For shipping and delivery information:\n• Please visit our Contact page\n• Call or email us for shipping details\n• We're located in Mansoura, Egypt\n• Contact information available on our website\n• Fast and reliable delivery available\n• Ask about bulk order discounts"
+        answer: "Delivery at Crown Dental Store:\n• Nationwide delivery across Egypt (2–5 business days)\n• Safe, protected packaging against damage\n• Located in Mansoura, Egypt — visit or arrange delivery\n• Contact us for bulk order discounts\n• WhatsApp or phone for fastest shipping quotes"
+      },
+      "About Store": {
+        question: "Tell me about Crown Dental Store",
+        answer: "Crown Dental Store is a trusted supplier of premium dental tools and supplies for dentists, clinics, and hospitals.\n\n• Mission: Quality products at competitive prices with excellent service\n• Location: Mansoura, Egypt\n• We stock instruments, restorative materials, endodontics, orthodontics, equipment, consumables & PPE\n• Brands include ProDental, Tokuyama, DentalChem, Schneider & more\n• Visit About & Contact page for full company details"
+      },
+      "How to Order": {
+        question: "How do I place an order?",
+        answer: "Ordering from Crown Dental Store is easy:\n\n1. Browse Products or Categories on our website\n2. Click 'View Details' for full specifications\n3. Use 'Order Now' on any product card — opens WhatsApp with product details pre-filled\n4. Or contact us directly via phone, WhatsApp, or the Contact form\n\nPayment: Cash on delivery or bank transfer before shipping.\nReturns: Accepted within 14 days of purchase."
+      },
+      "Business Hours": {
+        question: "What are your business hours?",
+        answer: "Crown Dental Store business hours:\n• Saturday – Thursday: 9:00 AM – 6:00 PM\n• Friday: Closed\n• Sunday: 10:00 AM – 5:00 PM\n\nFor urgent orders outside hours, message us on WhatsApp and we'll respond as soon as possible."
+      },
+      "Payment Methods": {
+        question: "What payment methods do you accept?",
+        answer: "Payment options at Crown Dental Store:\n• Cash on delivery (COD)\n• Bank transfer before shipping\n• Credit card arrangements — contact us to set up\n\nAll prices are listed in Egyptian Pounds (EGP) on our Products page."
+      },
+      "Returns Policy": {
+        question: "What is your return policy?",
+        answer: "Crown Dental Store return policy:\n• Returns accepted within 14 days of purchase\n• Items must be unused and in original packaging\n• Contact customer service to initiate a return\n• Shipping is guaranteed and protected against damage"
+      },
+      "Website Guide": {
+        question: "How do I navigate the website?",
+        answer: "Crown Dental Store website pages:\n\n🏠 Home — Featured products & categories\n📦 Products — Full catalog with search & filters\n📂 Categories — Browse by specialty (Orthodontics, Endodontics, etc.)\nℹ️ About & Contact — Company info, form, map & FAQ\n\nUse the search bar on Home or Products to find items by name or SKU."
+      },
+      "Root Canal": {
+        question: "What should I know about root canal treatment?",
+        answer: "Root canal (endodontic) treatment:\n• Removes infected pulp to save the tooth\n• Needed when decay reaches the nerve or after trauma\n• Modern techniques make it relatively painless with local anesthesia\n• Crown Dental Store supplies NiTi endodontic files, instruments & materials\n• Always performed by a qualified endodontist or dentist"
+      },
+      "Dental Implants": {
+        question: "What are dental implants?",
+        answer: "Dental implants are titanium posts surgically placed in the jawbone to replace missing teeth roots.\n\n• Most durable tooth replacement option\n• Requires healthy bone and gums\n• Healing takes 3–6 months before crown placement\n• Crown Dental Store offers implant-related supplies — browse our Implant category\n• Consult an implant specialist for personal assessment"
+      },
+      "Children Dental": {
+        question: "How do I care for my child's teeth?",
+        answer: "Children's dental care tips:\n• First dental visit by age 1 or when first tooth appears\n• Use age-appropriate fluoride toothpaste (rice-grain size under 3)\n• Supervise brushing until age 7–8\n• Limit sugary snacks and drinks\n• Dental sealants protect molars from decay\n• Crown Dental Store has pediatric and student supplies available"
+      },
+      "Bad Breath": {
+        question: "What causes bad breath and how to fix it?",
+        answer: "Halitosis (bad breath) causes & solutions:\n• Poor oral hygiene — brush twice daily, floss, clean tongue\n• Gum disease — see a dentist for treatment\n• Dry mouth — stay hydrated, chew sugar-free gum\n• Certain foods (garlic, onion) — temporary, brush and rinse\n• Persistent bad breath may indicate infection — dental checkup recommended"
+      },
+      "Sterilization": {
+        question: "Why is dental sterilization important?",
+        answer: "Sterilization in dental practice:\n• Prevents cross-infection between patients\n• Autoclave steam sterilization is the gold standard\n• Use sterilization pouches with indicator strips to verify cycles\n• Crown Dental Store stocks sterilization pouches, gloves, masks & PPE\n• All instruments must be cleaned, disinfected, then sterilized before reuse\n• Follow ISO 11607 and local health authority guidelines"
+      },
+      "Composite Restorations": {
+        question: "What are composite dental restorations?",
+        answer: "Composite restorations (tooth-colored fillings):\n• Made of resin material matching natural tooth shade\n• Used for cavities, chips, and cosmetic bonding\n• Requires bonding agent and curing light for proper hardening\n• Crown Dental Store offers universal composites, bonding agents & LED curing lights\n• Working time: 5–7 min; curing: 10–20 seconds with LED light\n• Shade selection (A1, A2, A3, etc.) is critical for aesthetics"
       }
     },
     keywords: {
-      "decay": "Tooth Decay",
-      "brush": "Brushing Teeth",
-      "gum": "Gum Care",
-      "fluoride": "Fluoride",
-      "whiten": "Teeth Whitening",
-      "pain": "Tooth Pain",
-      "clean": "Professional Cleaning",
-      "braces": "Orthodontics",
-      "sensitive": "Sensitivity",
-      "health": "General Health",
-      "product": "Our Products",
-      "instrument": "Instruments",
-      "material": "Materials",
-      "price": "Pricing",
-      "deliver": "Shipping",
-      "buy": "Our Products",
-      "order": "Pricing"
+      "decay": "Tooth Decay", "cavity": "Tooth Decay", "caries": "Tooth Decay",
+      "brush": "Brushing Teeth", "floss": "Brushing Teeth", "hygiene": "Brushing Teeth",
+      "gum": "Gum Care", "gingivitis": "Gum Care", "periodont": "Gum Care",
+      "fluoride": "Fluoride", "flouride": "Fluoride",
+      "whiten": "Teeth Whitening", "bleach": "Teeth Whitening",
+      "pain": "Tooth Pain", "ache": "Tooth Pain", "hurt": "Tooth Pain",
+      "clean": "Professional Cleaning", "checkup": "Professional Cleaning", "visit": "Professional Cleaning",
+      "braces": "Orthodontics", "orthodont": "Orthodontics", "align": "Orthodontics",
+      "sensitive": "Sensitivity", "sensitivity": "Sensitivity",
+      "health": "General Health", "heart": "General Health", "diabetes": "General Health",
+      "product": "Our Products", "catalog": "Our Products", "sell": "Our Products", "stock": "Our Products",
+      "instrument": "Instruments", "mirror": "Instruments", "explorer": "Instruments", "scaler": "Instruments",
+      "material": "Materials", "composite": "Composite Restorations", "bonding": "Materials", "resin": "Composite Restorations",
+      "price": "Pricing", "cost": "Pricing", "egp": "Pricing", "how much": "Pricing",
+      "deliver": "Shipping", "shipping": "Shipping", "ship": "Shipping",
+      "buy": "How to Order", "order": "How to Order", "purchase": "How to Order", "whatsapp": "How to Order",
+      "about": "About Store", "who are": "About Store", "company": "About Store", "crown": "About Store",
+      "hour": "Business Hours", "open": "Business Hours", "close": "Business Hours", "when": "Business Hours",
+      "pay": "Payment Methods", "payment": "Payment Methods", "cash": "Payment Methods",
+      "return": "Returns Policy", "refund": "Returns Policy",
+      "navigate": "Website Guide", "website": "Website Guide", "page": "Website Guide", "find": "Website Guide",
+      "root canal": "Root Canal", "endodont": "Root Canal", "ni-ti": "Root Canal",
+      "implant": "Dental Implants",
+      "child": "Children Dental", "kid": "Children Dental", "baby": "Children Dental", "pediatric": "Children Dental",
+      "breath": "Bad Breath", "halitosis": "Bad Breath", "smell": "Bad Breath",
+      "steril": "Sterilization", "autoclave": "Sterilization", "infection": "Sterilization", "ppe": "Sterilization",
+      "curing": "Composite Restorations", "filling": "Composite Restorations", "restoration": "Composite Restorations",
+      "glove": "Our Products", "mask": "Our Products", "handpiece": "Our Products", "equipment": "Our Products",
+      "category": "Our Products", "categories": "Our Products",
+      "contact": "About Store", "phone": "About Store", "email": "About Store", "address": "About Store", "location": "About Store",
+      "wisdom": "Tooth Pain", "extract": "Tooth Pain"
     }
   }
 };
@@ -156,8 +218,113 @@ const dentalGuideData = {
 let chatbotState = {
   isOpen: false,
   messages: [],
-  language: 'en'
+  language: 'en',
+  suggestionOffset: 0
 };
+
+/* =============================================================
+   CHATBOT INTELLIGENCE ENGINE
+   ============================================================= */
+
+function escapeChatHtml(text) {
+  const div = document.createElement('div');
+  div.textContent = text;
+  return div.innerHTML;
+}
+
+function formatBotMessage(text) {
+  return escapeChatHtml(text).replace(/\n/g, '<br>');
+}
+
+function getStoreContact() {
+  if (typeof contactInfo !== 'undefined') return contactInfo;
+  return {
+    storeName: 'Crown Dental Store',
+    phone: '+201000000000',
+    whatsapp: '+201000000000',
+    email: 'info@crowndentalstore.com',
+    address: 'Mansoura, Egypt'
+  };
+}
+
+function searchChatProducts(query, limit = 5) {
+  if (typeof products === 'undefined' || !products.length) return [];
+  const q = query.toLowerCase().trim();
+  const terms = q.split(/\s+/).filter(t => t.length > 1);
+
+  const scored = products.map(p => {
+    const name = (p.name || '').toLowerCase();
+    const cat = (p.category || '').toLowerCase();
+    const brand = (p.brand || '').toLowerCase();
+    const sku = (p.sku || String(p.id)).toLowerCase();
+    const desc = (p.description || '').toLowerCase();
+    const haystack = `${name} ${cat} ${brand} ${sku} ${desc}`;
+    let score = 0;
+    if (name.includes(q) || sku === q) score += 10;
+    terms.forEach(t => {
+      if (name.includes(t)) score += 5;
+      if (cat.includes(t) || brand.includes(t)) score += 3;
+      if (haystack.includes(t)) score += 1;
+    });
+    return { product: p, score };
+  }).filter(x => x.score > 0)
+    .sort((a, b) => b.score - a.score);
+
+  return scored.slice(0, limit).map(x => x.product);
+}
+
+function getCategoryProductCounts() {
+  if (typeof products === 'undefined') return {};
+  const counts = {};
+  products.forEach(p => {
+    counts[p.category] = (counts[p.category] || 0) + 1;
+  });
+  return counts;
+}
+
+function buildProductListResponse(limit = 8) {
+  if (typeof products === 'undefined' || !products.length) {
+    return "Our product catalog is loading. Please visit the Products page to browse all items.";
+  }
+  const list = products.slice(0, limit).map(p =>
+    `• ${p.name} — ${p.price} ${p.currency} (${p.category})`
+  ).join('\n');
+  const more = products.length > limit ? `\n\n...and ${products.length - limit} more products. Visit Products page for the full catalog.` : '';
+  return `Here are our featured products:\n\n${list}${more}`;
+}
+
+function buildCategoryResponse() {
+  const counts = getCategoryProductCounts();
+  const cats = typeof categories !== 'undefined' ? categories : [];
+  const lines = cats.map(c => {
+    const count = counts[c.nameEnglish] || 0;
+    return `• ${c.nameEnglish}${count ? ` (${count} products)` : ''}`;
+  }).join('\n');
+  return `Crown Dental Store categories:\n\n${lines}\n\nBrowse any category on our Categories page or filter on the Products page.`;
+}
+
+function buildContactResponse() {
+  const c = getStoreContact();
+  return `Contact Crown Dental Store:\n\n📞 Phone: ${c.phone}\n💬 WhatsApp: ${c.whatsapp}\n✉️ Email: ${c.email}\n📍 Location: ${c.address || 'Mansoura, Egypt'}\n\nVisit About & Contact for our form, map, and FAQ.`;
+}
+
+function buildProductDetailResponse(product) {
+  const avail = product.availability === 'in_stock' ? 'In Stock' :
+    product.availability === 'limited_stock' ? 'Limited Stock' : 'Out of Stock';
+  return `${product.name}\n\n💰 Price: ${product.price} ${product.currency}\n📂 Category: ${product.category}\n🏷️ Brand: ${product.brand}\n📦 Status: ${avail}\n\n${product.description}\n\n👉 View full details: product-details.html?id=${product.id}\n📲 Order via WhatsApp using the 'Order Now' button on our Products page.`;
+}
+
+function getCurrentPageHint() {
+  const page = window.location.pathname.split('/').pop() || 'index.html';
+  const hints = {
+    'index.html': "You're on the Home page — explore featured products and categories below.",
+    'products.html': "You're on the Products page — use filters and search to find exactly what you need.",
+    'categories.html': "You're on the Categories page — pick a specialty to see related products.",
+    'about-contact.html': "You're on About & Contact — find our form, hours, map, and FAQ here.",
+    'product-details.html': "You're viewing a product — use Order on WhatsApp or adjust quantity before ordering."
+  };
+  return hints[page] || '';
+}
 
 // Initialize Chatbot
 function initializeDentalChatbot() {
@@ -181,7 +348,7 @@ function createChatbotUI() {
         <div class="dental-chatbot-header">
           <div style="display: flex; align-items: center; gap: 8px;">
             <img src="images/logo/crown-chatbot-icon.png" alt="Crown Dental" style="width: 28px; height: 28px;">
-            <h3 style="margin: 0;">Dental Guide & Support</h3>
+            <h3 style="margin: 0;">Crown Dental Expert</h3>
           </div>
           <button id="dental-chatbot-close" class="dental-chatbot-close">✕</button>
         </div>
@@ -345,12 +512,13 @@ function createChatbotUI() {
       }
 
       .dental-chatbot-message-content {
-        max-width: 70%;
+        max-width: 85%;
         padding: 10px 14px;
         border-radius: 12px;
         font-size: 14px;
-        line-height: 1.4;
+        line-height: 1.5;
         word-wrap: break-word;
+        white-space: pre-line;
       }
 
       .dental-chatbot-message.user .dental-chatbot-message-content {
@@ -610,7 +778,7 @@ function addBotMessage(message) {
 
   const messageDiv = document.createElement('div');
   messageDiv.className = 'dental-chatbot-message bot';
-  messageDiv.innerHTML = `<div class="dental-chatbot-message-content">${message}</div>`;
+  messageDiv.innerHTML = `<div class="dental-chatbot-message-content">${formatBotMessage(message)}</div>`;
   messagesContainer.appendChild(messageDiv);
   messagesContainer.scrollTop = messagesContainer.scrollHeight;
 }
@@ -622,7 +790,7 @@ function addUserMessage(message) {
 
   const messageDiv = document.createElement('div');
   messageDiv.className = 'dental-chatbot-message user';
-  messageDiv.innerHTML = `<div class="dental-chatbot-message-content">${message}</div>`;
+  messageDiv.innerHTML = `<div class="dental-chatbot-message-content">${escapeChatHtml(message)}</div>`;
   messagesContainer.appendChild(messageDiv);
   messagesContainer.scrollTop = messagesContainer.scrollHeight;
 }
@@ -648,29 +816,143 @@ function sendChatMessage() {
 function getAnswerFromKnowledgeBase(question) {
   const lang = chatbotState.language;
   const data = dentalGuideData[lang];
-  const questionLower = question.toLowerCase();
+  const q = question.toLowerCase().trim();
 
-  // Check for keywords
-  for (let keyword in data.keywords) {
-    if (questionLower.includes(keyword)) {
-      const topic = data.keywords[keyword];
-      if (data.faq[topic]) {
-        return data.faq[topic].answer;
+  if (lang === 'ar') {
+    for (const keyword in data.keywords) {
+      if (q.includes(keyword) && data.faq[data.keywords[keyword]]) {
+        return data.faq[data.keywords[keyword]].answer;
       }
     }
+    for (const topic in data.faq) {
+      if (q.includes(topic.toLowerCase())) return data.faq[topic].answer;
+    }
+    return "عذراً، لم أستطع فهم سؤالك. جرّب سؤالاً عن المنتجات، الطلب، أو صحة الأسنان. 😊";
   }
 
-  // Direct topic match
-  for (let topic in data.faq) {
-    if (questionLower.includes(topic.toLowerCase())) {
-      return data.faq[topic].answer;
+  // Greetings
+  if (/^(hi|hello|hey|good\s*(morning|afternoon|evening)|greetings|howdy)\b/.test(q)) {
+    const hint = getCurrentPageHint();
+    return `Hello! Welcome to Crown Dental Store. I'm your professional dental assistant and store expert.\n\nI can answer clinical dental questions, help you find products & prices, explain how to order, and guide you around our website.\n\n${hint ? hint + '\n\n' : ''}What would you like to know?`;
+  }
+
+  // Thanks / goodbye
+  if (/\b(thank|thanks|thx|appreciate)\b/.test(q)) {
+    return "You're welcome! 😊 If you need anything else — product recommendations, dental advice, or ordering help — I'm here. Visit About & Contact or WhatsApp us for direct support.";
+  }
+  if (/\b(bye|goodbye|see you)\b/.test(q)) {
+    return "Goodbye! Take care of your smile. Crown Dental Store is always here when you need quality dental supplies. 👋";
+  }
+
+  // Help / what can you do
+  if (/\b(what can you|help me|what do you do|capabilities|assist)\b/.test(q)) {
+    return "I'm Crown Dental's AI expert assistant. I can help with:\n\n🦷 Clinical topics — decay, gum care, root canals, implants, whitening, children's dental care\n📦 Store catalog — all products, prices, brands, availability\n📂 Categories — Orthodontics, Endodontics, Restorative, Equipment & more\n🛒 Ordering — how to buy via WhatsApp, payment & delivery\n📍 Contact — phone, email, hours, location\n🌐 Website — navigate pages and find what you need\n\nJust ask naturally — e.g. 'composite resin price' or 'how to prevent gum disease'";
+  }
+
+  // Contact info
+  if (/\b(phone|call|email|contact|address|location|where.*(you|store|located)|reach)\b/.test(q) && !/\b(product|instrument)\b/.test(q)) {
+    return buildContactResponse();
+  }
+
+  // Business hours
+  if (/\b(hour|open|close|available|business\s*time|working\s*day)\b/.test(q)) {
+    return data.faq['Business Hours'].answer;
+  }
+
+  // How to order
+  if (/\b(how.*(order|buy|purchase)|place.*order|order\s*now|checkout)\b/.test(q)) {
+    return data.faq['How to Order'].answer;
+  }
+
+  // Payment
+  if (/\b(pay|payment|cash|transfer|credit\s*card|cod)\b/.test(q)) {
+    return data.faq['Payment Methods'].answer;
+  }
+
+  // Returns
+  if (/\b(return|refund|exchange)\b/.test(q)) {
+    return data.faq['Returns Policy'].answer;
+  }
+
+  // Shipping
+  if (/\b(deliver|shipping|ship|courier|how\s*long)\b/.test(q)) {
+    return data.faq['Shipping'].answer;
+  }
+
+  // About store
+  if (/\b(about|who\s*are|mission|vision|company|story)\b/.test(q) && !/\b(product)\b/.test(q)) {
+    return data.faq['About Store'].answer;
+  }
+
+  // Website navigation
+  if (/\b(website|navigate|page|where.*(find|product|category)|how.*(find|browse))\b/.test(q)) {
+    return data.faq['Website Guide'].answer;
+  }
+
+  // List all products / catalog
+  if (/\b(all\s*product|product\s*list|catalog|what.*(sell|stock|carry|offer)|show.*product|how many product)\b/.test(q)) {
+    if (typeof products !== 'undefined') {
+      return `We currently stock ${products.length} premium dental products.\n\n` + buildProductListResponse(6);
+    }
+    return data.faq['Our Products'].answer;
+  }
+
+  // Categories
+  if (/\b(categor|orthodont|endodont|restorativ|implant|consumable|equipment|instrument|medical\s*wear)\b/.test(q) && !searchChatProducts(q, 1).length) {
+    if (/\b(list|all|what|show|how many)\b/.test(q) || /\bcategor/.test(q)) {
+      return buildCategoryResponse();
     }
   }
 
-  // Default response
-  return lang === 'ar' 
-    ? "عذراً، لم أستطع فهم سؤالك بوضوح. يرجى محاولة بصيغة مختلفة أو اختيار من المواضيع المقترحة أعلاه. 😊"
-    : "Sorry, I didn't quite understand your question. Please try a different phrasing or select from the suggested topics above. 😊";
+  // Cheapest / expensive products
+  if (/\b(cheapest|lowest\s*price|affordable|budget)\b/.test(q) && typeof products !== 'undefined') {
+    const cheapest = [...products].sort((a, b) => a.price - b.price).slice(0, 3);
+    const list = cheapest.map(p => `• ${p.name} — ${p.price} ${p.currency}`).join('\n');
+    return `Our most affordable products:\n\n${list}\n\nBrowse Products page to filter by price.`;
+  }
+  if (/\b(expensive|premium|highest\s*price|top\s*end)\b/.test(q) && typeof products !== 'undefined') {
+    const pricey = [...products].sort((a, b) => b.price - a.price).slice(0, 3);
+    const list = pricey.map(p => `• ${p.name} — ${p.price} ${p.currency}`).join('\n');
+    return `Our premium equipment & supplies:\n\n${list}`;
+  }
+
+  // Product search — try to match specific products
+  const matched = searchChatProducts(q, 3);
+  if (matched.length === 1) {
+    return buildProductDetailResponse(matched[0]);
+  }
+  if (matched.length > 1) {
+    const list = matched.map(p => `• ${p.name} — ${p.price} ${p.currency} (${p.category})`).join('\n');
+    return `I found these products matching your query:\n\n${list}\n\nAsk about a specific product by name for full details, or visit Products page.`;
+  }
+
+  // Price query with product name fragment
+  if (/\b(price|cost|how much)\b/.test(q) && typeof products !== 'undefined') {
+    const priceMatch = searchChatProducts(q.replace(/\b(price|cost|how much|is|the|a|of)\b/g, ' ').trim(), 3);
+    if (priceMatch.length) {
+      const list = priceMatch.map(p => `• ${p.name}: ${p.price} ${p.currency}`).join('\n');
+      return `Pricing information:\n\n${list}\n\nAll prices are in EGP. Use 'Order Now' on the product card to order via WhatsApp.`;
+    }
+    return data.faq['Pricing'].answer;
+  }
+
+  // Keyword matching (longer keywords first for accuracy)
+  const sortedKeywords = Object.keys(data.keywords).sort((a, b) => b.length - a.length);
+  for (const keyword of sortedKeywords) {
+    if (q.includes(keyword)) {
+      const topic = data.keywords[keyword];
+      if (data.faq[topic]) return data.faq[topic].answer;
+    }
+  }
+
+  // Direct FAQ topic match
+  for (const topic in data.faq) {
+    if (q.includes(topic.toLowerCase())) return data.faq[topic].answer;
+  }
+
+  // Smart fallback with store context
+  const c = getStoreContact();
+  return `I'm not sure I understood that completely, but I'm here to help!\n\nTry asking about:\n• A specific product (e.g. "dental mirror" or "composite resin")\n• Dental topics (gum care, root canal, whitening)\n• Ordering, delivery, or payment\n• Our contact: ${c.phone} / WhatsApp\n\nOr tap a suggestion below. 😊`;
 }
 
 // Display Suggestions
@@ -680,14 +962,25 @@ function displaySuggestions() {
 
   const lang = chatbotState.language;
   const data = dentalGuideData[lang];
-  const topics = Object.keys(data.faq).slice(0, 4);
+  const allTopics = Object.keys(data.faq);
+  const offset = chatbotState.suggestionOffset % allTopics.length;
+  chatbotState.suggestionOffset += 4;
+
+  const priority = ['Our Products', 'How to Order', 'Tooth Decay', 'Business Hours', 'About Store', 'Root Canal'];
+  const sorted = [
+    ...priority.filter(t => allTopics.includes(t)),
+    ...allTopics.filter(t => !priority.includes(t))
+  ];
+  const topics = sorted.slice(offset, offset + 4);
+  while (topics.length < 4) topics.push(...sorted.slice(0, 4 - topics.length));
 
   suggestionsContainer.innerHTML = topics
-    .map(topic => `
-      <button class="dental-chatbot-suggestion" onclick="handleSuggestionClick('${topic}')">
-        ${data.faq[topic].question.substring(0, 20)}...
-      </button>
-    `)
+    .map(topic => {
+      const label = data.faq[topic].question.length > 28
+        ? data.faq[topic].question.substring(0, 26) + '…'
+        : data.faq[topic].question;
+      return `<button class="dental-chatbot-suggestion" onclick="handleSuggestionClick('${topic.replace(/'/g, "\\'")}')">${label}</button>`;
+    })
     .join('');
 }
 
