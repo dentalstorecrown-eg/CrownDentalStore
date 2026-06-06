@@ -256,9 +256,8 @@ function getStoreCoordinates() {
 function buildDirectionsUrl(originLat, originLng) {
   const store = getStoreCoordinates();
   const destination = `${store.latitude},${store.longitude}`;
-  const storeLabel = encodeURIComponent(contactInfo.storeName || 'Crown Dental Store');
-
-  let url = `https://www.google.com/maps/dir/?api=1&destination=${destination}&destination_place_id=&travelmode=driving`;
+  let url = 'https://www.google.com/maps/dir/?api=1&travelmode=driving';
+  url += `&destination=${destination}`;
 
   if (originLat != null && originLng != null) {
     url += `&origin=${originLat},${originLng}`;
@@ -267,27 +266,61 @@ function buildDirectionsUrl(originLat, originLng) {
   return url;
 }
 
+function openMapsNavigation(url) {
+  // On mobile, same-tab navigation opens the Google Maps app reliably.
+  // window.open after async geolocation is often blocked on phones.
+  if (isMobileDevice()) {
+    window.location.href = url;
+  } else {
+    window.open(url, '_blank', 'noopener');
+  }
+}
+
+function setDirectionsLoading(isLoading) {
+  const btn = document.getElementById('floating-directions-btn');
+  if (!btn) return;
+  btn.classList.toggle('is-loading', isLoading);
+  btn.disabled = isLoading;
+}
+
 function openDirectionsToStore(event) {
   if (event) event.preventDefault();
 
-  function openWithOrigin(lat, lng) {
+  let navigated = false;
+
+  function navigate(lat, lng) {
+    if (navigated) return;
+    navigated = true;
+    setDirectionsLoading(false);
     const url = (lat != null && lng != null)
       ? buildDirectionsUrl(lat, lng)
       : buildDirectionsUrl();
-    window.open(url, '_blank', 'noopener');
+    openMapsNavigation(url);
+  }
+
+  setDirectionsLoading(true);
+
+  // If GPS is slow, still open Maps — it will use device location as the start point
+  const fallbackTimer = setTimeout(function() {
+    navigate();
+  }, 4000);
+
+  function finishNavigate(lat, lng) {
+    clearTimeout(fallbackTimer);
+    navigate(lat, lng);
   }
 
   if ('geolocation' in navigator && contactInfo.enableGeolocation) {
     requestUserLocation(
       function(position) {
-        openWithOrigin(position.coords.latitude, position.coords.longitude);
+        finishNavigate(position.coords.latitude, position.coords.longitude);
       },
       function() {
         const cached = getUserLocation();
         if (cached) {
-          openWithOrigin(cached.latitude, cached.longitude);
+          finishNavigate(cached.latitude, cached.longitude);
         } else {
-          openWithOrigin();
+          finishNavigate();
         }
       },
       true
@@ -295,11 +328,12 @@ function openDirectionsToStore(event) {
     return;
   }
 
+  clearTimeout(fallbackTimer);
   const userLoc = getUserLocation();
   if (userLoc) {
-    openWithOrigin(userLoc.latitude, userLoc.longitude);
+    navigate(userLoc.latitude, userLoc.longitude);
   } else {
-    openWithOrigin();
+    navigate();
   }
 }
 
