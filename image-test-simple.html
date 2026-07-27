@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Image Test</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 40px; max-width: 800px; margin: 0 auto; }
+    .test { border: 2px solid #333; padding: 20px; margin: 20px 0; }
+    img { max-width: 300px; border: 2px solid #ccc; display: block; margin: 10px 0; }
+    .success { color: green; font-weight: bold; }
+    .error { color: red; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>🧪 Simple Image Loading Test</h1>
+  
+  <div class="test">
+    <h2>Test 1: First Product Image</h2>
+    <p><strong>Path:</strong> <code>images/categories/Consumbles/air way tips metal - 25 LE.jpg</code></p>
+    <img 
+      src="images/categories/Consumbles/air way tips metal - 25 LE.jpg" 
+      alt="Air Way Tips Metal"
+      onload="document.getElementById('test1-result').innerHTML = '<p class=success>✅ IMAGE LOADED SUCCESSFULLY!</p>'"
+      onerror="document.getElementById('test1-result').innerHTML = '<p class=error>❌ IMAGE FAILED TO LOAD</p>'"
+    >
+    <div id="test1-result"></div>
+  </div>
+
+  <div class="test">
+    <h2>Test 2: Variant Product Image (Rotary Files)</h2>
+    <p><strong>Path:</strong> <code>images/categories/Endo/rotary file dota gold refel - 17#8 - 17#4 - 20#4 - 25#4 - 30#4 - 35#4 - 270 LE.jpg</code></p>
+    <img 
+      src="images/categories/Endo/rotary file dota gold refel - 17#8 - 17#4 - 20#4 - 25#4 - 30#4 - 35#4 - 270 LE.jpg" 
+      alt="Rotary File"
+      onload="document.getElementById('test2-result').innerHTML = '<p class=success>✅ IMAGE LOADED SUCCESSFULLY!</p>'"
+      onerror="document.getElementById('test2-result').innerHTML = '<p class=error>❌ IMAGE FAILED TO LOAD</p>'"
+    >
+    <div id="test2-result"></div>
+  </div>
+
+  <div class="test">
+    <h2>Test 3: Another Product</h2>
+    <p><strong>Path:</strong> <code>images/categories/Restorative/amalgam YDA - 60 LE.webp</code></p>
+    <img 
+      src="images/categories/Restorative/amalgam YDA - 60 LE.webp" 
+      alt="Amalgam YDA"
+      onload="document.getElementById('test3-result').innerHTML = '<p class=success>✅ IMAGE LOADED SUCCESSFULLY!</p>'"
+      onerror="document.getElementById('test3-result').innerHTML = '<p class=error>❌ IMAGE FAILED TO LOAD</p>'"
+    >
+    <div id="test3-result"></div>
+  </div>
+
+  <hr>
+  
+  <div class="test">
+    <h2>📊 What This Tests</h2>
+    <ul>
+      <li>If images are accessible from HTML files</li>
+      <li>If the image paths are correct</li>
+      <li>If images are properly deployed to GitHub Pages</li>
+    </ul>
+    <p><strong>Expected Result:</strong> All 3 images should show ✅ GREEN checkmarks</p>
+    <p><strong>If you see ❌ RED X marks:</strong> The images are not accessible on the live site (deployment issue)</p>
+  </div>
+
+  <div class="test">
+    <h2>🔍 Browser Console Check</h2>
+    <p>Press <kbd>F12</kbd> to open Developer Tools, then go to the <strong>Network</strong> tab.</p>
+    <p>Refresh this page and check:</p>
+    <ul>
+      <li>If any images show <strong style="color: red;">404 (Not Found)</strong> - the files aren't on GitHub</li>
+      <li>If images show <strong style="color: green;">200 (OK)</strong> - they loaded successfully</li>
+    </ul>
+  </div>
+
+  <p style="text-align: center; margin-top: 40px;">
+    <a href="index.html">← Back to Home</a> | 
+    <a href="debug.html">Full Debug Page</a>
+  </p>
+</body>
+</html>
