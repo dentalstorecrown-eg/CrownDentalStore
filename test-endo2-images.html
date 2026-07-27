@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Endo 2 Images Test - Crown Dental Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      background: #f5f5f5;
+    }
+    .header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 30px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .status {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin: 20px 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 15px;
+      margin: 20px 0;
+    }
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      border: 2px solid #ddd;
+      transition: all 0.3s;
+    }
+    .card.loading {
+      border-color: #ffc107;
+      background: #fff9e6;
+    }
+    .card.success {
+      border-color: #28a745;
+      background: #f0fff4;
+    }
+    .card.error {
+      border-color: #dc3545;
+      background: #fff5f5;
+    }
+    .card img {
+      width: 100%;
+      height: 150px;
+      object-fit: contain;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      background: #fafafa;
+    }
+    .card h4 {
+      margin: 10px 0 5px;
+      font-size: 14px;
+      color: #333;
+    }
+    .card .status-icon {
+      font-size: 24px;
+      margin-top: 10px;
+    }
+    .stats {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin: 20px 0;
+    }
+    .stat {
+      background: white;
+      padding: 20px 40px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .stat-number {
+      font-size: 36px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    .success-stat { color: #28a745; }
+    .error-stat { color: #dc3545; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>🔬 Endo 2 Images Test</h1>
+    <p>Testing all 18 products from the "Endo 2" folder after case sensitivity fix</p>
+    <p style="font-size: 14px; margin-top: 10px;">Fix applied: July 27, 2026 - Commit ec15ed4</p>
+  </div>
+
+  <div class="status" id="status">
+    <p>⏳ Testing images... Please wait...</p>
+  </div>
+
+  <div class="stats" id="stats" style="display:none;">
+    <div class="stat">
+      <div>Total Tested</div>
+      <div class="stat-number">18</div>
+    </div>
+    <div class="stat">
+      <div>✅ Working</div>
+      <div class="stat-number success-stat" id="success-count">0</div>
+    </div>
+    <div class="stat">
+      <div>❌ Failed</div>
+      <div class="stat-number error-stat" id="error-count">0</div>
+    </div>
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+  <script>
+    // Endo 2 products (IDs 89-106)
+    const endo2Products = [
+      { id: 89, name: 'Biodent Irregation Needles', image: 'images/categories/Endo 2/biodent irregation needles - 320 LE.webp' },
+      { id: 90, name: 'Diaroot Bioceramic Sealer 2G', image: 'images/categories/Endo 2/diaroot bioceramic sealer 2g - 1780 LE.jpeg' },
+      { id: 91, name: 'Endo Ice Maquira', image: 'images/categories/Endo 2/endo ice maquira - 860 LE.jpeg' },
+      { id: 92, name: 'Endo Ruler Block', image: 'images/categories/Endo 2/endo ruler block - 50 LE.jpg' },
+      { id: 93, name: 'Endo Z Bur', image: 'images/categories/Endo 2/endo z bur - 40 LE.jpg' },
+      { id: 94, name: 'Fanta Side Vented Needles', image: 'images/categories/Endo 2/fanta side vented needles - 470 LE.jpeg' },
+      { id: 95, name: 'Files Nic', image: 'images/categories/Endo 2/files nic - 10 - 15 - 55 LE.jpeg' },
+      { id: 96, name: 'Gates Mani', image: 'images/categories/Endo 2/gates mani - 1~6 - 330 LE.jpg' },
+      { id: 97, name: 'Gatta Percha Cutter Tips', image: 'images/categories/Endo 2/gatta percha cutter tips - 310 LE.jpeg' },
+      { id: 98, name: 'Gatta Percha Meta Biomed', image: 'images/categories/Endo 2/gatta percha meta biomed - 20%232 - 25%232 - 30%232 - 35%232 - 40%232 - 20%234 - 25%234 - 30%234 - 35%234 - 40%234 - 20%236 - 25%236 - 115 LE.jpeg' },
+      { id: 99, name: 'High Solvent Chem', image: 'images/categories/Endo 2/high solvent chem - 60 LE.jpg' },
+      { id: 100, name: 'Meta Edeta Cream', image: 'images/categories/Endo 2/meta edeta cream - 240 LE.jpg' },
+      { id: 101, name: 'Mta Toothmate', image: 'images/categories/Endo 2/mta toothmate - 120 LE.webp' },
+      { id: 102, name: 'Nic Retretment Rotary Files', image: 'images/categories/Endo 2/nic retretment rotary files - 370 LE.jpg' },
+      { id: 103, name: 'Paper Point Meta Biomed', image: 'images/categories/Endo 2/paper point meta biomed - 20%232 - 25%232 - 30%232 - 35%232 - 40%232 - 20%234 - 25%234 - 30%234 - 35%234 - 40%234 - 20%236 - 25%236 - 115 LE.jpeg' },
+      { id: 104, name: 'Paper Point Sani', image: 'images/categories/Endo 2/paper point sani - 25%234 - 30%234 - 35%234 - 30%236 - 75 LE.webp' },
+      { id: 105, name: 'Spreader Mani', image: 'images/categories/Endo 2/spreader mani - 25 - 30 - 210 LE.jpg' },
+      { id: 106, name: 'Well Root St Bioceramic Sealer .5G', image: 'images/categories/Endo 2/well root st bioceramic sealer .5g - 750 LE.jpg' }
+    ];
+
+    let successCount = 0;
+    let errorCount = 0;
+    let completedCount = 0;
+
+    const grid = document.getElementById('grid');
+    const status = document.getElementById('status');
+    const stats = document.getElementById('stats');
+
+    // Create cards for all products
+    endo2Products.forEach(product => {
+      const card = document.createElement('div');
+      card.className = 'card loading';
+      card.id = `card-${product.id}`;
+      card.innerHTML = `
+        <img src="${product.image}" alt="${product.name}" id="img-${product.id}">
+        <h4>${product.name}</h4>
+        <div class="status-icon">⏳</div>
+        <p style="font-size:11px; color:#666; margin-top:5px;">ID: ${product.id}</p>
+      `;
+      grid.appendChild(card);
+
+      // Test image loading
+      const img = document.getElementById(`img-${product.id}`);
+      
+      img.onload = function() {
+        successCount++;
+        completedCount++;
+        card.className = 'card success';
+        card.querySelector('.status-icon').textContent = '✅';
+        updateStatus();
+      };
+
+      img.onerror = function() {
+        errorCount++;
+        completedCount++;
+        card.className = 'card error';
+        card.querySelector('.status-icon').textContent = '❌';
+        img.src = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="150"><rect fill="%23ff0000" width="200" height="150"/><text x="50%" y="50%" fill="white" text-anchor="middle" dominant-baseline="middle">NO IMAGE</text></svg>';
+        updateStatus();
+      };
+    });
+
+    function updateStatus() {
+      document.getElementById('success-count').textContent = successCount;
+      document.getElementById('error-count').textContent = errorCount;
+
+      if (completedCount === 18) {
+        stats.style.display = 'flex';
+        if (errorCount === 0) {
+          status.innerHTML = `
+            <h2 style="color: #28a745; margin-top: 0;">✅ SUCCESS! All 18 images are working!</h2>
+            <p>The case sensitivity fix has been successfully applied. All products from the "Endo 2" folder are now displaying correctly.</p>
+            <p style="font-size: 14px; color: #666; margin-top: 15px;">
+              <strong>Fix Details:</strong> Changed folder path from "endo 2" (lowercase) to "Endo 2" (capital E) to match the actual folder name on GitHub Pages.
+            </p>
+          `;
+        } else {
+          status.innerHTML = `
+            <h2 style="color: #dc3545; margin-top: 0;">⚠️ ${errorCount} image(s) still not loading</h2>
+            <p>Some images are still missing. This could mean:</p>
+            <ul style="text-align: left;">
+              <li>GitHub Pages hasn't finished rebuilding yet (wait 5-10 minutes)</li>
+              <li>Browser cache needs to be cleared (press Ctrl+Shift+R)</li>
+              <li>The image files don't exist in the Git repository</li>
+            </ul>
+            <p><strong>Recommendation:</strong> Wait a few minutes and refresh this page with Ctrl+Shift+R</p>
+          `;
+        }
+      } else {
+        status.innerHTML = `<p>⏳ Testing images... ${completedCount} of 18 completed</p>`;
+      }
+    }
+  </script>
+
+  <footer style="text-align: center; margin-top: 40px; padding: 20px; border-top: 1px solid #ddd;">
+    <p><a href="index.html">← Back to Home</a> | <a href="products.html">View All Products</a> | <a href="find-missing-images.html">Full Image Test</a></p>
+    <p style="font-size: 12px; color: #666; margin-top: 10px;">
+      Crown Dental Store | Fix Applied: July 27, 2026 | Commit: ec15ed4
+    </p>
+  </footer>
+</body>
+</html>
