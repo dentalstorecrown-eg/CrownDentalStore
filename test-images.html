@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Images - Products with Variants</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    .product { border: 1px solid #ddd; padding: 15px; margin: 10px 0; }
+    .product img { max-width: 200px; height: auto; display: block; }
+    .success { color: green; }
+    .error { color: red; }
+  </style>
+</head>
+<body>
+  <h1>Testing Images for Products with Variants</h1>
+  <div id="results"></div>
+
+  <script src="js/data.js"></script>
+  <script>
+    const resultsDiv = document.getElementById('results');
+    let html = '';
+
+    // Filter products with variants
+    const variantProducts = products.filter(p => p.hasVariants);
+    
+    html += `<p>Total products with variants: ${variantProducts.length}</p>`;
+    
+    variantProducts.forEach(product => {
+      html += `<div class="product">`;
+      html += `<h3>${product.name} (ID: ${product.id})</h3>`;
+      html += `<p>Category: ${product.category}</p>`;
+      html += `<p>Image Path: <code>${product.image}</code></p>`;
+      html += `<img src="${product.image}" alt="${product.name}" 
+        onerror="this.parentElement.innerHTML += '<p class=error>❌ Image failed to load</p>'"
+        onload="this.parentElement.innerHTML += '<p class=success>✓ Image loaded successfully</p>'"
+      >`;
+      html += `<p>Variants: ${product.variants.length} options</p>`;
+      html += `</div>`;
+    });
+
+    resultsDiv.innerHTML = html;
+  </script>
+</body>
+</html>
