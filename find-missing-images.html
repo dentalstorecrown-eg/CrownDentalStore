@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Missing Images - Crown Dental Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 1400px;
+      margin: 0 auto;
+      background: #f5f5f5;
+    }
+    .header {
+      background: #0056B3;
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    .section {
+      background: white;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .success { color: #28a745; font-weight: bold; }
+    .error { color: #dc3545; font-weight: bold; }
+    .warning { color: #ffc107; font-weight: bold; }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 15px;
+      margin: 20px 0;
+    }
+    .product-card {
+      border: 2px solid #ddd;
+      padding: 10px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .product-card.error {
+      border-color: #dc3545;
+      background: #fff5f5;
+    }
+    .product-card.success {
+      border-color: #28a745;
+      background: #f5fff5;
+    }
+    .product-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: contain;
+      border: 1px solid #ddd;
+      background: #fafafa;
+    }
+    .product-info {
+      margin-top: 10px;
+      font-size: 12px;
+    }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin: 20px 0;
+    }
+    .stat-card {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .stat-number {
+      font-size: 36px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    .btn {
+      background: #0056B3;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      margin: 5px;
+    }
+    .btn:hover {
+      background: #004494;
+    }
+    .progress {
+      width: 100%;
+      height: 30px;
+      background: #e0e0e0;
+      border-radius: 15px;
+      overflow: hidden;
+      margin: 20px 0;
+    }
+    .progress-bar {
+      height: 100%;
+      background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+      transition: width 0.3s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+    }
+    #exportBtn {
+      background: #28a745;
+    }
+    #exportBtn:hover {
+      background: #218838;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>🔍 Find Missing Images Tool</h1>
+    <p>This tool checks all 359 products and identifies which ones have broken images</p>
+  </div>
+
+  <div class="section">
+    <h2>Testing Progress</h2>
+    <div class="progress">
+      <div class="progress-bar" id="progress-bar">0%</div>
+    </div>
+    <p id="status">Click "Start Test" to begin checking all product images...</p>
+    <button class="btn" onclick="startTest()">Start Test</button>
+    <button class="btn" id="exportBtn" onclick="exportResults()" style="display:none;">Export Missing Images List</button>
+  </div>
+
+  <div class="section" id="stats-section" style="display:none;">
+    <h2>📊 Test Results</h2>
+    <div class="stats">
+      <div class="stat-card">
+        <div>Total Products</div>
+        <div class="stat-number" id="total-count">0</div>
+      </div>
+      <div class="stat-card" style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);">
+        <div>✅ Images Working</div>
+        <div class="stat-number" id="success-count">0</div>
+      </div>
+      <div class="stat-card" style="background: linear-gradient(135deg, #eb3349 0%, #f45c43 100%);">
+        <div>❌ Images Missing</div>
+        <div class="stat-number" id="error-count">0</div>
+      </div>
+      <div class="stat-card" style="background: linear-gradient(135deg, #f2994a 0%, #f2c94c 100%);">
+        <div>Success Rate</div>
+        <div class="stat-number" id="success-rate">0%</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="missing-section" style="display:none;">
+    <h2>❌ Products with Missing Images</h2>
+    <div class="product-grid" id="missing-grid"></div>
+  </div>
+
+  <div class="section" id="working-section" style="display:none;">
+    <h2>✅ Products with Working Images (Sample)</h2>
+    <p>Showing first 20 products with working images</p>
+    <div class="product-grid" id="working-grid"></div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script>
+    let testResults = {
+      total: 0,
+      success: 0,
+      error: 0,
+      missingProducts: [],
+      workingProducts: []
+    };
+
+    function startTest() {
+      if (!products || products.length === 0) {
+        alert('Error: products data not loaded!');
+        return;
+      }
+
+      // Reset
+      testResults = {
+        total: products.length,
+        success: 0,
+        error: 0,
+        missingProducts: [],
+        workingProducts: []
+      };
+
+      document.getElementById('stats-section').style.display = 'block';
+      document.getElementById('status').textContent = 'Testing in progress...';
+      
+      // Test each product
+      let completed = 0;
+      products.forEach((product, index) => {
+        const img = new Image();
+        
+        img.onload = function() {
+          testResults.success++;
+          testResults.workingProducts.push(product);
+          completed++;
+          updateProgress(completed);
+        };
+        
+        img.onerror = function() {
+          testResults.error++;
+          testResults.missingProducts.push(product);
+          completed++;
+          updateProgress(completed);
+        };
+        
+        img.src = product.image;
+      });
+    }
+
+    function updateProgress(completed) {
+      const percent = Math.round((completed / testResults.total) * 100);
+      document.getElementById('progress-bar').style.width = percent + '%';
+      document.getElementById('progress-bar').textContent = percent + '%';
+      
+      if (completed === testResults.total) {
+        finishTest();
+      }
+    }
+
+    function finishTest() {
+      // Update stats
+      document.getElementById('total-count').textContent = testResults.total;
+      document.getElementById('success-count').textContent = testResults.success;
+      document.getElementById('error-count').textContent = testResults.error;
+      
+      const successRate = Math.round((testResults.success / testResults.total) * 100);
+      document.getElementById('success-rate').textContent = successRate + '%';
+      
+      // Update status
+      if (testResults.error === 0) {
+        document.getElementById('status').innerHTML = '<span class="success">✅ ALL IMAGES WORKING! No missing images found.</span>';
+      } else {
+        document.getElementById('status').innerHTML = `<span class="error">❌ Found ${testResults.error} products with missing images</span>`;
+        document.getElementById('exportBtn').style.display = 'inline-block';
+      }
+      
+      // Show missing products
+      if (testResults.missingProducts.length > 0) {
+        document.getElementById('missing-section').style.display = 'block';
+        const grid = document.getElementById('missing-grid');
+        grid.innerHTML = testResults.missingProducts.map(product => `
+          <div class="product-card error">
+            <img src="${product.image}" alt="${product.name}" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22150%22><rect fill=%22%23ff0000%22 width=%22200%22 height=%22150%22/><text x=%2250%%22 y=%2250%%22 fill=%22white%22 text-anchor=%22middle%22>NO IMAGE</text></svg>'">
+            <div class="product-info">
+              <strong>${product.name}</strong><br>
+              ID: ${product.id}<br>
+              Category: ${product.category}<br>
+              <code style="font-size:10px; word-break:break-all;">${product.image}</code>
+            </div>
+          </div>
+        `).join('');
+      }
+      
+      // Show sample of working products
+      if (testResults.workingProducts.length > 0) {
+        document.getElementById('working-section').style.display = 'block';
+        const grid = document.getElementById('working-grid');
+        const sample = testResults.workingProducts.slice(0, 20);
+        grid.innerHTML = sample.map(product => `
+          <div class="product-card success">
+            <img src="${product.image}" alt="${product.name}">
+            <div class="product-info">
+              <strong>${product.name}</strong><br>
+              ID: ${product.id}<br>
+              Category: ${product.category}
+            </div>
+          </div>
+        `).join('');
+      }
+    }
+
+    function exportResults() {
+      if (testResults.missingProducts.length === 0) {
+        alert('No missing images to export!');
+        return;
+      }
+
+      let csv = 'ID,Product Name,Category,Brand,Price,Image Path\n';
+      testResults.missingProducts.forEach(product => {
+        csv += `${product.id},"${product.name}","${product.category}","${product.brand}",${product.price},"${product.image}"\n`;
+      });
+
+      const blob = new Blob([csv], { type: 'text/csv' });
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'missing-images-report.csv';
+      a.click();
+      window.URL.revokeObjectURL(url);
+    }
+
+    // Auto-start test on page load
+    window.addEventListener('load', function() {
+      setTimeout(startTest, 500);
+    });
+  </script>
+
+  <div class="section">
+    <h2>📝 Instructions</h2>
+    <ol>
+      <li>This tool automatically tests all 359 products when the page loads</li>
+      <li>It tries to load each product's image and tracks success/failure</li>
+      <li>Products with broken images will be shown with their details</li>
+      <li>You can export a CSV file with all missing images</li>
+      <li>Use this information to identify which products need new images</li>
+    </ol>
+  </div>
+
+  <footer style="text-align: center; margin-top: 40px; padding: 20px; border-top: 1px solid #ddd;">
+    <p><a href="index.html">← Back to Home</a> | <a href="products.html">View Products</a> | <a href="debug.html">Debug Page</a></p>
+  </footer>
+</body>
+</html>
