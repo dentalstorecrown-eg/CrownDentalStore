@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Debug - Crown Dental Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .section {
+      border: 2px solid #0056B3;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+    }
+    .success { color: green; font-weight: bold; }
+    .error { color: red; font-weight: bold; }
+    .warning { color: orange; font-weight: bold; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 10px 0;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #0056B3;
+      color: white;
+    }
+    img {
+      max-width: 100px;
+      height: auto;
+      border: 1px solid #ddd;
+    }
+    .img-test {
+      display: inline-block;
+      margin: 5px;
+      padding: 5px;
+      border: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+  <h1>🔍 Crown Dental Store - Debug Page</h1>
+  
+  <div class="section">
+    <h2>✅ Data.js Loading Test</h2>
+    <div id="data-status"></div>
+  </div>
+
+  <div class="section">
+    <h2>📊 Products Summary</h2>
+    <div id="products-summary"></div>
+  </div>
+
+  <div class="section">
+    <h2>🎯 Products with Variants</h2>
+    <div id="variant-products"></div>
+  </div>
+
+  <div class="section">
+    <h2>🖼️ Image Loading Test (All Variant Products)</h2>
+    <div id="image-test"></div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script>
+    // Test 1: Check if data.js loaded
+    const dataStatus = document.getElementById('data-status');
+    if (typeof products !== 'undefined' && Array.isArray(products)) {
+      dataStatus.innerHTML = `<p class="success">✓ data.js loaded successfully!</p>`;
+    } else {
+      dataStatus.innerHTML = `<p class="error">✗ data.js failed to load or products array is undefined</p>`;
+    }
+
+    // Test 2: Products summary
+    const summary = document.getElementById('products-summary');
+    if (typeof products !== 'undefined') {
+      const totalProducts = products.length;
+      const variantProducts = products.filter(p => p.hasVariants);
+      const regularProducts = products.filter(p => !p.hasVariants);
+      const categories = [...new Set(products.map(p => p.category))];
+      
+      summary.innerHTML = `
+        <table>
+          <tr><th>Metric</th><th>Value</th></tr>
+          <tr><td>Total Products</td><td class="success">${totalProducts}</td></tr>
+          <tr><td>Products with Variants</td><td class="warning">${variantProducts.length}</td></tr>
+          <tr><td>Regular Products</td><td>${regularProducts.length}</td></tr>
+          <tr><td>Total Categories</td><td>${categories.length}</td></tr>
+          <tr><td>Categories</td><td>${categories.join(', ')}</td></tr>
+        </table>
+      `;
+    } else {
+      summary.innerHTML = `<p class="error">No products data available</p>`;
+    }
+
+    // Test 3: List all products with variants
+    const variantDiv = document.getElementById('variant-products');
+    if (typeof products !== 'undefined') {
+      const variantProducts = products.filter(p => p.hasVariants);
+      
+      if (variantProducts.length > 0) {
+        let html = '<table>';
+        html += '<tr><th>ID</th><th>Name</th><th>Category</th><th>Variants</th><th>Base Price</th><th>Image Path</th></tr>';
+        
+        variantProducts.forEach(p => {
+          html += `<tr>
+            <td>${p.id}</td>
+            <td>${p.name}</td>
+            <td>${p.category}</td>
+            <td>${p.variants.length} options</td>
+            <td>${p.basePrice} ${p.currency}</td>
+            <td><code style="font-size: 10px;">${p.image}</code></td>
+          </tr>`;
+        });
+        
+        html += '</table>';
+        variantDiv.innerHTML = html;
+      } else {
+        variantDiv.innerHTML = '<p class="warning">No products with variants found</p>';
+      }
+    }
+
+    // Test 4: Image loading test
+    const imageTest = document.getElementById('image-test');
+    if (typeof products !== 'undefined') {
+      const variantProducts = products.filter(p => p.hasVariants);
+      
+      if (variantProducts.length > 0) {
+        let html = '<p>Testing image loading for all ' + variantProducts.length + ' products with variants:</p>';
+        
+        variantProducts.forEach(p => {
+          html += `
+            <div class="img-test">
+              <p><strong>${p.name}</strong> (ID: ${p.id})</p>
+              <img src="${p.image}" alt="${p.name}" 
+                onerror="this.parentElement.innerHTML += '<p class=error>✗ Failed</p>'"
+                onload="this.parentElement.innerHTML += '<p class=success>✓ Loaded</p>'"
+              >
+              <p style="font-size: 10px;">${p.image}</p>
+            </div>
+          `;
+        });
+        
+        imageTest.innerHTML = html;
+      } else {
+        imageTest.innerHTML = '<p class="warning">No variant products to test</p>';
+      }
+    }
+  </script>
+
+  <div class="section">
+    <h2>📝 Instructions</h2>
+    <p>This debug page tests:</p>
+    <ul>
+      <li>Whether data.js loads correctly</li>
+      <li>Total products count and breakdown</li>
+      <li>All products with variants and their details</li>
+      <li>Image loading for all variant products</li>
+    </ul>
+    <p><strong>Expected Results:</strong></p>
+    <ul>
+      <li>359 total products</li>
+      <li>19 products with variants</li>
+      <li>All images should load (green ✓)</li>
+    </ul>
+  </div>
+
+  <footer style="text-align: center; margin-top: 40px; padding: 20px; border-top: 1px solid #ddd;">
+    <p><a href="index.html">← Back to Home</a> | <a href="products.html">View Products</a></p>
+  </footer>
+</body>
+</html>
