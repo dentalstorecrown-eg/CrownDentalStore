@@ -1,6 +1,6 @@
 # Generate new data.js from parsed products
 $inputFile = "products-complete.json"
-$outputFile = "js\data-new.js"
+$outputFile = "js\data.js"
 
 # Read parsed products
 $productsJson = Get-Content $inputFile -Raw | ConvertFrom-Json
@@ -29,9 +29,9 @@ foreach ($product in $productsJson) {
     $specs = @()
     if ($product.hasVariants -and $product.variants) {
         $sizes = ($product.variants | ForEach-Object { $_.size }) -join ", "
-        $specs += "{ label: \`"Available Options\`", value: \`"$sizes\`" }"
+        $specs += "{ label: 'Available Options', value: '$sizes' }"
     } else {
-        $specs += "{ label: \`"Type\`", value: \`"Dental Product\`" }"
+        $specs += "{ label: 'Type', value: 'Dental Product' }"
     }
     
     # Determine badge
@@ -44,12 +44,12 @@ foreach ($product in $productsJson) {
         $badge = "Economy"
     }
     
-    # Build product entry
+    # Build product entry (using single quotes for JavaScript strings)
     $productEntry = "  { "
     $productEntry += "id: $($product.id), "
-    $productEntry += "name: \`"$($product.name)\`", "
-    $productEntry += "category: \`"$($product.category)\`", "
-    $productEntry += "brand: \`"$brand\`", "
+    $productEntry += "name: '$($product.name)', "
+    $productEntry += "category: '$($product.category)', "
+    $productEntry += "brand: '$brand', "
     
     if ($product.hasVariants -and $product.variants -and $product.variants.Count -gt 0) {
         # Product with variants
@@ -60,7 +60,7 @@ foreach ($product in $productsJson) {
         $variantEntries = @()
         foreach ($variant in $product.variants) {
             $varId = $variant.size -replace "[^a-zA-Z0-9]", "-"
-            $variantEntries += "{ id: \`"$varId\`", size: \`"$($variant.size)\`", price: $($variant.price) }"
+            $variantEntries += "{ id: '$varId', size: '$($variant.size)', price: $($variant.price) }"
         }
         $productEntry += $variantEntries -join ", "
         $productEntry += "], "
@@ -72,13 +72,13 @@ foreach ($product in $productsJson) {
         $productEntry += "price: $($product.price), "
     }
     
-    $productEntry += "currency: \`"EGP\`", "
-    $productEntry += "image: \`"$($product.image)\`", "
-    $productEntry += "gallery: [\`"$($product.image)\`"], "
-    $productEntry += "description: \`"$($product.name)\`", "
+    $productEntry += "currency: 'EGP', "
+    $productEntry += "image: '$($product.image)', "
+    $productEntry += "gallery: ['$($product.image)'], "
+    $productEntry += "description: '$($product.name)', "
     $productEntry += "specifications: [$($specs -join ', ')], "
-    $productEntry += "availability: \`"in_stock\`", "
-    $productEntry += "badge: \`"$badge\`" }"
+    $productEntry += "availability: 'in_stock', "
+    $productEntry += "badge: '$badge' }"
     
     # Add comma if not last product
     if ($index -lt $productsJson.Count) {
