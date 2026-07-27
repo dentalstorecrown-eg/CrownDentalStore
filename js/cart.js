@@ -53,22 +53,31 @@ function addToCart(productId, quantity = 1) {
 }
 
 // Remove item from cart
-function removeFromCart(productId) {
+function removeFromCart(productId, variantId = null) {
   let cart = getCart();
-  cart = cart.filter(item => item.id !== productId);
+  if (variantId) {
+    cart = cart.filter(item => !(item.id === productId && item.variantId === variantId));
+  } else {
+    cart = cart.filter(item => !(item.id === productId && !item.variantId));
+  }
   saveCart(cart);
   renderCart();
   showNotification('Product removed from cart', 'success');
 }
 
 // Update item quantity
-function updateCartItemQuantity(productId, quantity) {
+function updateCartItemQuantity(productId, quantity, variantId = null) {
   const cart = getCart();
-  const item = cart.find(item => item.id === productId);
+  let item;
+  if (variantId) {
+    item = cart.find(i => i.id === productId && i.variantId === variantId);
+  } else {
+    item = cart.find(i => i.id === productId && !i.variantId);
+  }
   
   if (item) {
     if (quantity <= 0) {
-      removeFromCart(productId);
+      removeFromCart(productId, variantId);
     } else {
       item.quantity = quantity;
       saveCart(cart);
@@ -127,25 +136,37 @@ function renderCart() {
 
   // Render cart items
   if (cartItemsContainer) {
-    cartItemsContainer.innerHTML = cart.map(item => `
-      <div class="cart-item" data-product-id="${item.id}">
-        <img src="${item.image}" alt="${item.name}" class="cart-item-image">
+    cartItemsContainer.innerHTML = cart.map(item => {
+      const itemId = item.variantId ? `${item.id}-${item.variantId}` : item.id;
+      const displayName = item.hasVariants && item.variantLabel ? `${item.name} (${item.variantLabel})` : item.name;
+      const removeHandler = item.variantId ? `removeFromCart(${item.id}, '${item.variantId}')` : `removeFromCart(${item.id})`;
+      const updateHandler = item.variantId 
+        ? `updateCartItemQuantity(${item.id}, ${item.quantity - 1}, '${item.variantId}')`
+        : `updateCartItemQuantity(${item.id}, ${item.quantity - 1})`;
+      const updateHandlerPlus = item.variantId 
+        ? `updateCartItemQuantity(${item.id}, ${item.quantity + 1}, '${item.variantId}')`
+        : `updateCartItemQuantity(${item.id}, ${item.quantity + 1})`;
+      
+      return `
+      <div class="cart-item" data-product-id="${itemId}">
+        <img src="${item.image}" alt="${displayName}" class="cart-item-image">
         <div class="cart-item-details">
-          <h3 class="cart-item-name">${item.name}</h3>
+          <h3 class="cart-item-name">${displayName}</h3>
           <p class="cart-item-category">${item.category}</p>
           <p class="cart-item-price">${formatCurrency(item.price, item.currency)}</p>
         </div>
         <div class="cart-item-actions">
           <div class="cart-quantity-controls">
-            <button class="cart-qty-btn" onclick="updateCartItemQuantity(${item.id}, ${item.quantity - 1})">−</button>
+            <button class="cart-qty-btn" onclick="${updateHandler}">−</button>
             <input type="number" class="cart-qty-input" value="${item.quantity}" min="1" readonly>
-            <button class="cart-qty-btn" onclick="updateCartItemQuantity(${item.id}, ${item.quantity + 1})">+</button>
+            <button class="cart-qty-btn" onclick="${updateHandlerPlus}">+</button>
           </div>
           <p class="cart-item-subtotal">${formatCurrency(item.price * item.quantity, item.currency)}</p>
-          <button class="btn-remove-item" onclick="removeFromCart(${item.id})" title="Remove item">🗑️</button>
+          <button class="btn-remove-item" onclick="${removeHandler}" title="Remove item">🗑️</button>
         </div>
       </div>
-    `).join('');
+    `;
+    }).join('');
   }
 
   // Update summary
@@ -201,7 +222,11 @@ function orderNow() {
   message += '━━━━━━━━━━━━━━━━━━━━\n\n';
   
   cart.forEach((item, index) => {
-    message += `${index + 1}. *${item.name}*\n`;
+    const displayName = item.hasVariants && item.variantLabel 
+      ? `${item.name} (${item.variantLabel})` 
+      : item.name;
+    
+    message += `${index + 1}. *${displayName}*\n`;
     message += `   • Category: ${item.category}\n`;
     message += `   • Price: ${item.price} ${item.currency}\n`;
     message += `   • Quantity: ${item.quantity}\n`;

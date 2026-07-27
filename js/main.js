@@ -576,29 +576,40 @@ function createProductCard(product) {
     product.availability === 'in_stock' ? 'In Stock' : product.availability === 'limited_stock' ? 'Limited Stock' : 'Out of Stock'
   );
 
+  // Display price or basePrice for products with variants
+  const displayPrice = product.hasVariants ? product.basePrice : product.price;
+  const priceLabel = product.hasVariants ? 'Starting at' : '';
+  
+  // Badge for products with multiple options
+  const badge = product.hasVariants ? 'Multiple Options' : product.badge;
+
   return `
     <div class="card fade-in">
       <div class="card-image">
         <img src="${product.image}" alt="${productName}" loading="lazy">
-        <span class="card-badge">${product.badge}</span>
+        <span class="card-badge">${badge}</span>
       </div>
       <div class="card-body">
         <div class="card-category">${categoryName}</div>
         <h3 class="card-title">${productName}</h3>
-        <div class="card-price">${formatCurrency(product.price, product.currency)}</div>
+        <div class="card-price">${priceLabel ? priceLabel + ' ' : ''}${formatCurrency(displayPrice, product.currency)}</div>
         <div class="${availabilityClass}">${availabilityText}</div>
+        ${product.hasVariants ? '' : `
         <div class="quantity-counter">
           <button class="qty-btn" onclick="decreaseQuantity(this)">−</button>
           <input type="number" class="qty-input" value="1" min="1" readonly>
           <button class="qty-btn" onclick="increaseQuantity(this)">+</button>
         </div>
+        `}
         <div class="card-actions">
           <a href="product-details.html?id=${product.id}" class="btn btn-primary btn-sm" style="flex: 1; text-align: center;">
             ${getText('عرض التفاصيل', 'View Details')}
           </a>
+          ${!product.hasVariants ? `
           <button class="btn btn-secondary btn-sm" onclick="addProductToCart(${product.id}, this)" style="flex: 1;">
             ${getText('أضف للسلة', 'Add to Cart')}
           </button>
+          ` : ''}
         </div>
       </div>
     </div>
@@ -618,6 +629,12 @@ function addProductToCart(productId, button) {
     return;
   }
 
+  // If product has variants, redirect to details page
+  if (product.hasVariants) {
+    window.location.href = `product-details.html?id=${productId}`;
+    return;
+  }
+
   // Get cart from localStorage
   let cart = [];
   try {
@@ -629,7 +646,7 @@ function addProductToCart(productId, button) {
   }
 
   // Check if product already in cart
-  const existingItem = cart.find(item => item.id === productId);
+  const existingItem = cart.find(item => item.id === productId && !item.variantId);
   
   if (existingItem) {
     existingItem.quantity += quantity;
@@ -641,7 +658,8 @@ function addProductToCart(productId, button) {
       currency: product.currency,
       image: product.image,
       category: product.category,
-      quantity: quantity
+      quantity: quantity,
+      hasVariants: false
     });
   }
 
@@ -659,6 +677,68 @@ function addProductToCart(productId, button) {
   } catch (e) {
     console.error('Error saving cart:', e);
     showNotification('Error adding to cart', 'error');
+  }
+}
+
+// Add product with variant to cart (called from product details page)
+function addProductToCartWithVariant(productId, variantId, quantity = 1) {
+  const product = products.find(p => p.id === productId);
+  if (!product || !product.hasVariants) {
+    showNotification('Product not found', 'error');
+    return false;
+  }
+
+  const variant = product.variants.find(v => v.id === variantId);
+  if (!variant) {
+    showNotification('Please select a valid option', 'error');
+    return false;
+  }
+
+  // Get cart from localStorage
+  let cart = [];
+  try {
+    const cartData = localStorage.getItem('dentalStoreCart');
+    cart = cartData ? JSON.parse(cartData) : [];
+  } catch (e) {
+    console.error('Error reading cart:', e);
+    cart = [];
+  }
+
+  // Check if this exact variant already in cart
+  const existingItem = cart.find(item => item.id === productId && item.variantId === variantId);
+  
+  if (existingItem) {
+    existingItem.quantity += quantity;
+  } else {
+    cart.push({
+      id: product.id,
+      name: product.name,
+      price: variant.price,
+      currency: product.currency,
+      image: product.image,
+      category: product.category,
+      quantity: quantity,
+      hasVariants: true,
+      variantId: variant.id,
+      variantLabel: variant.size
+    });
+  }
+
+  // Save cart
+  try {
+    localStorage.setItem('dentalStoreCart', JSON.stringify(cart));
+    showNotification(`${product.name} (${variant.size}) added to cart!`, 'success');
+    
+    // Update cart icon badge
+    if (typeof updateCartIcon === 'function') {
+      updateCartIcon();
+    }
+    
+    return true;
+  } catch (e) {
+    console.error('Error saving cart:', e);
+    showNotification('Error adding to cart', 'error');
+    return false;
   }
 }
 

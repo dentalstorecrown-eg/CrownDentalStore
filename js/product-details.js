@@ -56,6 +56,21 @@ function renderProductDetails(product) {
     <img src="${img}" alt="${productName} ${index + 1}" class="product-thumbnail ${index === 0 ? 'active' : ''}" onclick="switchImage(${index})">
   `).join('');
 
+  // Variant selector HTML (if product has variants)
+  let variantSelectorHtml = '';
+  if (product.hasVariants && product.variants && product.variants.length > 0) {
+    variantSelectorHtml = `
+      <div style="margin-top: var(--spacing-lg); padding: var(--spacing-lg); background-color: var(--color-bg-light); border-radius: var(--radius-lg);">
+        <label for="variant-select" style="font-weight: 600; display: block; margin-bottom: var(--spacing-md);">Select Size/Option:</label>
+        <select id="variant-select" style="width: 100%; padding: var(--spacing-md); border: 2px solid var(--color-border); border-radius: var(--radius-md); font-size: 16px; background-color: white; cursor: pointer;">
+          <option value="">Choose an option...</option>
+          ${product.variants.map(v => `<option value="${v.id}" data-price="${v.price}">${v.size} - ${formatCurrency(v.price, product.currency)}</option>`).join('')}
+        </select>
+        <div id="selected-price" style="margin-top: var(--spacing-md); font-size: 24px; font-weight: 700; color: var(--color-primary); text-align: center; display: none;"></div>
+      </div>
+    `;
+  }
+
   const html = `
     <div class="product-gallery">
       <img id="main-product-image" src="${product.image}" alt="${productName}" class="product-main-image">
@@ -63,6 +78,9 @@ function renderProductDetails(product) {
         ${thumbnailsHtml}
       </div>
       
+      ${variantSelectorHtml}
+      
+      ${!product.hasVariants ? `
       <div style="margin-top: var(--spacing-lg); padding: var(--spacing-lg); background-color: var(--color-bg-light); border-radius: var(--radius-lg);">
         <label style="font-weight: 600; display: block; margin-bottom: var(--spacing-lg);">Quantity:</label>
         <div style="display: flex; align-items: center; gap: var(--spacing-lg); justify-content: center;">
@@ -71,6 +89,7 @@ function renderProductDetails(product) {
           <button onclick="incrementQuantity()" style="background-color: var(--color-primary); border: none; border-radius: 50%; width: 50px; height: 50px; cursor: pointer; font-size: 28px; color: white; font-weight: bold; display: flex; align-items: center; justify-content: center; transition: all var(--transition-fast); box-shadow: 0 2px 8px rgba(0, 86, 179, 0.2);">+</button>
         </div>
       </div>
+      ` : ''}
     </div>
 
     <div class="product-info">
@@ -91,7 +110,7 @@ function renderProductDetails(product) {
         </div>
       </div>
 
-      <div class="product-price">${formatCurrency(product.price, product.currency)}</div>
+      <div class="product-price" id="display-price">${product.hasVariants ? 'Starting at ' + formatCurrency(product.basePrice, product.currency) : formatCurrency(product.price, product.currency)}</div>
 
       <div class="product-description">
         <h3>Description</h3>
@@ -109,7 +128,7 @@ function renderProductDetails(product) {
         <button class="btn btn-secondary btn-lg" onclick="addProductToCartFromDetails(${product.id})" style="display: flex; align-items: center; justify-content: center; gap: var(--spacing-sm);">
           🛒 Add to Cart
         </button>
-        <button class="btn btn-success btn-lg" onclick="orderNow('${productName}', ${product.price}, '${product.currency}')" style="display: flex; align-items: center; justify-content: center; gap: var(--spacing-sm);">
+        <button class="btn btn-success btn-lg" onclick="orderNowFromDetails(${product.id})" style="display: flex; align-items: center; justify-content: center; gap: var(--spacing-sm);">
           <img src="images/social/whatsapp_style_icon.svg" alt="WhatsApp" style="width: 20px; height: 20px;"> Order on WhatsApp
         </button>
         <a href="tel:${contactInfo.phone1.replace(/[\s-]/g, '')}" class="btn btn-primary btn-lg">
@@ -120,6 +139,29 @@ function renderProductDetails(product) {
   `;
 
   container.innerHTML = html;
+  
+  // Setup variant selector change event
+  if (product.hasVariants) {
+    const variantSelect = document.getElementById('variant-select');
+    const selectedPriceDiv = document.getElementById('selected-price');
+    const displayPriceDiv = document.getElementById('display-price');
+    
+    if (variantSelect) {
+      variantSelect.addEventListener('change', function() {
+        const selectedOption = this.options[this.selectedIndex];
+        const price = selectedOption.getAttribute('data-price');
+        
+        if (price && this.value) {
+          selectedPriceDiv.textContent = 'Price: ' + formatCurrency(parseFloat(price), product.currency);
+          selectedPriceDiv.style.display = 'block';
+          displayPriceDiv.textContent = formatCurrency(parseFloat(price), product.currency);
+        } else {
+          selectedPriceDiv.style.display = 'none';
+          displayPriceDiv.textContent = 'Starting at ' + formatCurrency(product.basePrice, product.currency);
+        }
+      });
+    }
+  }
 }
 
 /* =============================================================
@@ -187,6 +229,34 @@ function renderRelatedProducts(product) {
 /* =============================================================
    ORDER FUNCTIONS
    ============================================================= */
+
+function orderNowFromDetails(productId) {
+  const product = currentProduct || products.find(p => p.id === productId);
+  if (!product) return;
+  
+  const productName = product.name || product.nameEnglish;
+  
+  if (product.hasVariants) {
+    const variantSelect = document.getElementById('variant-select');
+    const selectedVariantId = variantSelect ? variantSelect.value : null;
+    
+    if (!selectedVariantId) {
+      showNotification('Please select a size/option first', 'error');
+      return;
+    }
+    
+    const variant = product.variants.find(v => v.id === selectedVariantId);
+    if (!variant) return;
+    
+    const message = `🛍️ I would like to order the following product:\n\n📦 Product: ${productName}\n📏 Size/Option: ${variant.size}\n💰 Price: ${variant.price} ${product.currency}\n\nCan I get more details?`;
+    openWhatsApp(message);
+  } else {
+    const quantity = parseInt(document.getElementById('product-quantity')?.value || 1);
+    const totalPrice = product.price * quantity;
+    const message = `🛍️ I would like to order the following product:\n\n📦 Product: ${productName}\n📊 Quantity: ${quantity}\n💰 Unit Price: ${product.price} ${product.currency}\n💵 Total Price: ${totalPrice} ${product.currency}\n\nCan I get more details?`;
+    openWhatsApp(message);
+  }
+}
 
 function orderNow(productName, price, currency) {
   const quantity = parseInt(document.getElementById('product-quantity')?.value || 1);
@@ -294,54 +364,79 @@ function shareProduct(platform) {
    ============================================================= */
 
 function addProductToCartFromDetails(productId) {
-  const quantity = parseInt(document.getElementById('product-quantity')?.value || 1);
-  
-  // Get product from products array
-  const product = products.find(p => p.id === productId);
+  const product = currentProduct || products.find(p => p.id === productId);
   if (!product) {
     showNotification('Product not found', 'error');
     return;
   }
 
-  // Get cart from localStorage
-  let cart = [];
-  try {
-    const cartData = localStorage.getItem('dentalStoreCart');
-    cart = cartData ? JSON.parse(cartData) : [];
-  } catch (e) {
-    console.error('Error reading cart:', e);
-    cart = [];
-  }
-
-  // Check if product already in cart
-  const existingItem = cart.find(item => item.id === productId);
-  
-  if (existingItem) {
-    existingItem.quantity += quantity;
-  } else {
-    cart.push({
-      id: product.id,
-      name: product.name,
-      price: product.price,
-      currency: product.currency,
-      image: product.image,
-      category: product.category,
-      quantity: quantity
-    });
-  }
-
-  // Save cart
-  try {
-    localStorage.setItem('dentalStoreCart', JSON.stringify(cart));
-    showNotification(`${quantity} × ${product.name} added to cart!`, 'success');
+  if (product.hasVariants) {
+    // Get selected variant
+    const variantSelect = document.getElementById('variant-select');
+    const selectedVariantId = variantSelect ? variantSelect.value : null;
     
-    // Update cart icon badge
-    if (typeof updateCartIcon === 'function') {
-      updateCartIcon();
+    if (!selectedVariantId) {
+      showNotification('Please select a size/option first', 'error');
+      return;
     }
-  } catch (e) {
-    console.error('Error saving cart:', e);
-    showNotification('Error adding to cart', 'error');
+    
+    // Add to cart with variant using the function from main.js
+    if (typeof addProductToCartWithVariant === 'function') {
+      const success = addProductToCartWithVariant(productId, selectedVariantId, 1);
+      if (success) {
+        // Reset variant selection
+        if (variantSelect) variantSelect.value = '';
+        const selectedPriceDiv = document.getElementById('selected-price');
+        if (selectedPriceDiv) selectedPriceDiv.style.display = 'none';
+        const displayPriceDiv = document.getElementById('display-price');
+        if (displayPriceDiv) displayPriceDiv.textContent = 'Starting at ' + formatCurrency(product.basePrice, product.currency);
+      }
+    }
+  } else {
+    // Regular product without variants
+    const quantity = parseInt(document.getElementById('product-quantity')?.value || 1);
+    
+    // Get cart from localStorage
+    let cart = [];
+    try {
+      const cartData = localStorage.getItem('dentalStoreCart');
+      cart = cartData ? JSON.parse(cartData) : [];
+    } catch (e) {
+      console.error('Error reading cart:', e);
+      cart = [];
+    }
+
+    // Check if product already in cart
+    const existingItem = cart.find(item => item.id === productId && !item.variantId);
+    
+    if (existingItem) {
+      existingItem.quantity += quantity;
+    } else {
+      cart.push({
+        id: product.id,
+        name: product.name,
+        price: product.price,
+        currency: product.currency,
+        image: product.image,
+        category: product.category,
+        quantity: quantity,
+        hasVariants: false
+      });
+    }
+
+    // Save cart
+    try {
+      localStorage.setItem('dentalStoreCart', JSON.stringify(cart));
+      showNotification(`${quantity} × ${product.name} added to cart!`, 'success');
+      
+      // Update cart icon badge
+      if (typeof updateCartIcon === 'function') {
+        updateCartIcon();
+      }
+    } catch (e) {
+      console.error('Error saving cart:', e);
+      showNotification('Error adding to cart', 'error');
+    }
   }
 }
 
