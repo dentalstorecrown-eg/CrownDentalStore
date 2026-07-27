@@ -1,0 +1,3970 @@
+﻿[
+    {
+        "id":  1,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "air way tips metal - 25 LE.jpg",
+        "price":  25,
+        "name":  "Air Way Tips Metal",
+        "image":  "images/categories/Consumbles/air way tips metal - 25 LE.jpg",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  2,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "air way tips plastic - 230 LE.webp",
+        "price":  230,
+        "name":  "Air Way Tips Plastic",
+        "image":  "images/categories/Consumbles/air way tips plastic - 230 LE.webp",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  3,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "alcohol 1 L  - 50 LE.jpg",
+        "price":  50,
+        "name":  "Alcohol 1 L",
+        "image":  "images/categories/Consumbles/alcohol 1 L  - 50 LE.jpg",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  4,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "alcohol 1 L spray  - 55 LE.png",
+        "price":  55,
+        "name":  "Alcohol 1 L Spray",
+        "image":  "images/categories/Consumbles/alcohol 1 L spray  - 55 LE.png",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  5,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "alcohol 5 let  - 120 LE.jpg",
+        "price":  120,
+        "name":  "Alcohol 5 Let",
+        "image":  "images/categories/Consumbles/alcohol 5 let  - 120 LE.jpg",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  6,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "barrier film chinese  - 150 LE.jpg",
+        "price":  150,
+        "name":  "Barrier Film Chinese",
+        "image":  "images/categories/Consumbles/barrier film chinese  - 150 LE.jpg",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  7,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "barrier film epic  - 250 LE.jpg",
+        "price":  250,
+        "name":  "Barrier Film Epic",
+        "image":  "images/categories/Consumbles/barrier film epic  - 250 LE.jpg",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  8,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "biocleance ultra - surface disinfictant  - 70 LE.png",
+        "price":  70,
+        "name":  "Biocleance Ultra",
+        "image":  "images/categories/Consumbles/biocleance ultra - surface disinfictant  - 70 LE.png",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  9,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "contra oil BMS  - 430 LE.png",
+        "price":  430,
+        "name":  "Contra Oil Bms",
+        "image":  "images/categories/Consumbles/contra oil BMS  - 430 LE.png",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  10,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "contra oil cherry  - 140 LE.png",
+        "price":  140,
+        "name":  "Contra Oil Cherry",
+        "image":  "images/categories/Consumbles/contra oil cherry  - 140 LE.png",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  11,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "cotton .5 kg - 95 LE.png",
+        "price":  95,
+        "name":  "Cotton .5 Kg",
+        "image":  "images/categories/Consumbles/cotton .5 kg - 95 LE.png",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  12,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "cotton roll 450  - 90 LE.webp",
+        "price":  90,
+        "name":  "Cotton Roll 450",
+        "image":  "images/categories/Consumbles/cotton roll 450  - 90 LE.webp",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  13,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "cups plastic  - 25 LE.webp",
+        "price":  25,
+        "name":  "Cups Plastic",
+        "image":  "images/categories/Consumbles/cups plastic  - 25 LE.webp",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  14,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "dental napkin  - 75 LE.jpg",
+        "price":  75,
+        "name":  "Dental Napkin",
+        "image":  "images/categories/Consumbles/dental napkin  - 75 LE.jpg",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  15,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "dental napkin epic - 160 LE.jpg",
+        "price":  160,
+        "name":  "Dental Napkin Epic",
+        "image":  "images/categories/Consumbles/dental napkin epic - 160 LE.jpg",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  16,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "diagnostic gloves light  - 7 LE.jpg",
+        "price":  7,
+        "name":  "Diagnostic Gloves Light",
+        "image":  "images/categories/Consumbles/diagnostic gloves light  - 7 LE.jpg",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  17,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "diagnostiv gloves heavy  - 15 LE.jpg",
+        "price":  15,
+        "name":  "Diagnostiv Gloves Heavy",
+        "image":  "images/categories/Consumbles/diagnostiv gloves heavy  - 15 LE.jpg",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  18,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "distilled water 5 let  - 20 LE.png",
+        "price":  20,
+        "name":  "Distilled Water 5 Let",
+        "image":  "images/categories/Consumbles/distilled water 5 let  - 20 LE.png",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  19,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "latex gloves  - 170 LE.webp",
+        "price":  170,
+        "name":  "Latex Gloves",
+        "image":  "images/categories/Consumbles/latex gloves  - 170 LE.webp",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  20,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "low suction chinese - 95 LE.webp",
+        "price":  95,
+        "name":  "Low Suction Chinese",
+        "image":  "images/categories/Consumbles/low suction chinese - 95 LE.webp",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  21,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "low suction italy - 145 LE.webp",
+        "price":  145,
+        "name":  "Low Suction Italy",
+        "image":  "images/categories/Consumbles/low suction italy - 145 LE.webp",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  22,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "mask - 50 LE.webp",
+        "price":  50,
+        "name":  "Mask",
+        "image":  "images/categories/Consumbles/mask - 50 LE.webp",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  23,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "needle ck 100 pcs - 240 LE.png",
+        "price":  240,
+        "name":  "Needle Ck 100 Pcs",
+        "image":  "images/categories/Consumbles/needle ck 100 pcs - 240 LE.png",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  24,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "needle shin ject 100 pcs  - 230 LE.png",
+        "price":  230,
+        "name":  "Needle Shin Ject 100 Pcs",
+        "image":  "images/categories/Consumbles/needle shin ject 100 pcs  - 230 LE.png",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  25,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "needle shio ject 50 pcs - 100 LE.jpg",
+        "price":  100,
+        "name":  "Needle Shio Ject 50 Pcs",
+        "image":  "images/categories/Consumbles/needle shio ject 50 pcs - 100 LE.jpg",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  26,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "nitrile-gloves - 170 LE.webp",
+        "price":  170,
+        "name":  "Nitrile-Gloves",
+        "image":  "images/categories/Consumbles/nitrile-gloves - 170 LE.webp",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  27,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "sterilization pouch 13 280 mm - 230 LE.png",
+        "price":  230,
+        "name":  "Sterilization Pouch 13 280 Mm",
+        "image":  "images/categories/Consumbles/sterilization pouch 13 280 mm - 230 LE.png",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  28,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "sterilization pouch 50 200mm - 120 LE.png",
+        "price":  120,
+        "name":  "Sterilization Pouch 50 200Mm",
+        "image":  "images/categories/Consumbles/sterilization pouch 50 200mm - 120 LE.png",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  29,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "sterilization pouch 60 130mm - 95 LE.png",
+        "price":  95,
+        "name":  "Sterilization Pouch 60 130Mm",
+        "image":  "images/categories/Consumbles/sterilization pouch 60 130mm - 95 LE.png",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  30,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "sterilization pouch 70 260mm - 125 LE.png",
+        "price":  125,
+        "name":  "Sterilization Pouch 70 260Mm",
+        "image":  "images/categories/Consumbles/sterilization pouch 70 260mm - 125 LE.png",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  31,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "sterilization pouch 90 260 mm - 150 LE.png",
+        "price":  150,
+        "name":  "Sterilization Pouch 90 260 Mm",
+        "image":  "images/categories/Consumbles/sterilization pouch 90 260 mm - 150 LE.png",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  32,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "sterilization roll 10 cm 150 m - 340 LE.jpg",
+        "price":  340,
+        "name":  "Sterilization Roll 10 Cm 150 M",
+        "image":  "images/categories/Consumbles/sterilization roll 10 cm 150 m - 340 LE.jpg",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  33,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "sterilization roll 15 cm 150 m - 550 LE.webp",
+        "price":  550,
+        "name":  "Sterilization Roll 15 Cm 150 M",
+        "image":  "images/categories/Consumbles/sterilization roll 15 cm 150 m - 550 LE.webp",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  34,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "sterlization roll 5 cm 150 m - 180 LE.webp",
+        "price":  180,
+        "name":  "Sterlization Roll 5 Cm 150 M",
+        "image":  "images/categories/Consumbles/sterlization roll 5 cm 150 m - 180 LE.webp",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  35,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "sterlization roll 7.5 cm 150 m - 260 LE.webp",
+        "price":  260,
+        "name":  "Sterlization Roll 7.5 Cm 150 M",
+        "image":  "images/categories/Consumbles/sterlization roll 7.5 cm 150 m - 260 LE.webp",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  36,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "tourch gas - 50 LE.webp",
+        "price":  50,
+        "name":  "Tourch Gas",
+        "image":  "images/categories/Consumbles/tourch gas - 50 LE.webp",
+        "folderName":  "Consumbles"
+    },
+    {
+        "id":  37,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "camera sleevs mg - 220 LE.jpeg",
+        "price":  220,
+        "name":  "Camera Sleevs Mg",
+        "image":  "images/categories/Consumles 2/camera sleevs mg - 220 LE.jpeg",
+        "folderName":  "Consumles 2"
+    },
+    {
+        "id":  38,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "contrastor - 100 LE.jpg",
+        "price":  100,
+        "name":  "Contrastor",
+        "image":  "images/categories/Consumles 2/contrastor - 100 LE.jpg",
+        "folderName":  "Consumles 2"
+    },
+    {
+        "id":  39,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "ergonom x self developing x ray film - 35 LE.jpg",
+        "price":  35,
+        "name":  "Ergonom X Self Developing X Ray Film",
+        "image":  "images/categories/Consumles 2/ergonom x self developing x ray film - 35 LE.jpg",
+        "folderName":  "Consumles 2"
+    },
+    {
+        "id":  40,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "gown - 20 LE.jpeg",
+        "price":  20,
+        "name":  "Gown",
+        "image":  "images/categories/Consumles 2/gown - 20 LE.jpeg",
+        "folderName":  "Consumles 2"
+    },
+    {
+        "id":  41,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "high suction converter - 70 LE.jpg",
+        "price":  70,
+        "name":  "High Suction Converter",
+        "image":  "images/categories/Consumles 2/high suction converter - 70 LE.jpg",
+        "folderName":  "Consumles 2"
+    },
+    {
+        "id":  42,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "instrunent cleaning brushes - 20 LE.jpeg",
+        "price":  20,
+        "name":  "Instrunent Cleaning Brushes",
+        "image":  "images/categories/Consumles 2/instrunent cleaning brushes - 20 LE.jpeg",
+        "folderName":  "Consumles 2"
+    },
+    {
+        "id":  43,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "intera oral camera sleevs epic - 300 LE.webp",
+        "price":  300,
+        "name":  "Intera Oral Camera Sleevs Epic",
+        "image":  "images/categories/Consumles 2/intera oral camera sleevs epic - 300 LE.webp",
+        "folderName":  "Consumles 2"
+    },
+    {
+        "id":  44,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "key contra - 40 LE.webp",
+        "price":  40,
+        "name":  "Key Contra",
+        "image":  "images/categories/Consumles 2/key contra - 40 LE.webp",
+        "folderName":  "Consumles 2"
+    },
+    {
+        "id":  45,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "mirror hand - 20 LE.jpg",
+        "price":  20,
+        "name":  "Mirror Hand",
+        "image":  "images/categories/Consumles 2/mirror hand - 20 LE.jpg",
+        "folderName":  "Consumles 2"
+    },
+    {
+        "id":  46,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "mirror head mega front surface  - 90 LE.jpeg",
+        "price":  90,
+        "name":  "Mirror Head Mega Front Surface",
+        "image":  "images/categories/Consumles 2/mirror head mega front surface  - 90 LE.jpeg",
+        "folderName":  "Consumles 2"
+    },
+    {
+        "id":  47,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "mirror head pakistane - 12 LE.jpeg",
+        "price":  12,
+        "name":  "Mirror Head Pakistane",
+        "image":  "images/categories/Consumles 2/mirror head pakistane - 12 LE.jpeg",
+        "folderName":  "Consumles 2"
+    },
+    {
+        "id":  48,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "napkin - 50 LE.jpg",
+        "price":  50,
+        "name":  "Napkin",
+        "image":  "images/categories/Consumles 2/napkin - 50 LE.jpg",
+        "folderName":  "Consumles 2"
+    },
+    {
+        "id":  49,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "napkin holder - 20 LE.jpg",
+        "price":  20,
+        "name":  "Napkin Holder",
+        "image":  "images/categories/Consumles 2/napkin holder - 20 LE.jpg",
+        "folderName":  "Consumles 2"
+    },
+    {
+        "id":  50,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "over head - 40 LE.jpeg",
+        "price":  40,
+        "name":  "Over Head",
+        "image":  "images/categories/Consumles 2/over head - 40 LE.jpeg",
+        "folderName":  "Consumles 2"
+    },
+    {
+        "id":  51,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "over shoes - 40 LE.jpeg",
+        "price":  40,
+        "name":  "Over Shoes",
+        "image":  "images/categories/Consumles 2/over shoes - 40 LE.jpeg",
+        "folderName":  "Consumles 2"
+    },
+    {
+        "id":  52,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "safety box - 15 LE.png",
+        "price":  15,
+        "name":  "Safety Box",
+        "image":  "images/categories/Consumles 2/safety box - 15 LE.png",
+        "folderName":  "Consumles 2"
+    },
+    {
+        "id":  53,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "semsor sleevs easy wrab - 95 LE.jpg",
+        "price":  95,
+        "name":  "Semsor Sleevs Easy Wrab",
+        "image":  "images/categories/Consumles 2/semsor sleevs easy wrab - 95 LE.jpg",
+        "folderName":  "Consumles 2"
+    },
+    {
+        "id":  54,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "straight low speed zero - 620 LE.jpeg",
+        "price":  620,
+        "name":  "Straight Low Speed Zero",
+        "image":  "images/categories/Consumles 2/straight low speed zero - 620 LE.jpeg",
+        "folderName":  "Consumles 2"
+    },
+    {
+        "id":  55,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "syringe anathesia - 190 LE.jpg",
+        "price":  190,
+        "name":  "Syringe Anathesia",
+        "image":  "images/categories/Consumles 2/syringe anathesia - 190 LE.jpg",
+        "folderName":  "Consumles 2"
+    },
+    {
+        "id":  56,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "topical anesthetic gel sleepy tooth - 75 LE.webp",
+        "price":  75,
+        "name":  "Topical Anesthetic Gel Sleepy Tooth",
+        "image":  "images/categories/Consumles 2/topical anesthetic gel sleepy tooth - 75 LE.webp",
+        "folderName":  "Consumles 2"
+    },
+    {
+        "id":  57,
+        "hasVariants":  false,
+        "category":  "Consumables",
+        "fileName":  "topimate anaesthesia gel - 60 LE.jpeg",
+        "price":  60,
+        "name":  "Topimate Anaesthesia Gel",
+        "image":  "images/categories/Consumles 2/topimate anaesthesia gel - 60 LE.jpeg",
+        "folderName":  "Consumles 2"
+    },
+    {
+        "id":  58,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "endo ice maquira - 860 LE.jpg",
+        "price":  860,
+        "name":  "Endo Ice Maquira",
+        "image":  "images/categories/Endo/endo ice maquira - 860 LE.jpg",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  59,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "endocem - 2750 LE.jpg",
+        "price":  2750,
+        "name":  "Endocem",
+        "image":  "images/categories/Endo/endocem - 2750 LE.jpg",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  60,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "Medicem - 1800 LE.jpg",
+        "price":  1800,
+        "name":  "Medicem",
+        "image":  "images/categories/Endo/Medicem - 1800 LE.jpg",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  61,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "metapaste plus - 530 LE.webp",
+        "price":  530,
+        "name":  "Metapaste Plus",
+        "image":  "images/categories/Endo/metapaste plus - 530 LE.webp",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  62,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "metapex plus - 530 LE.jpg",
+        "price":  530,
+        "name":  "Metapex Plus",
+        "image":  "images/categories/Endo/metapex plus - 530 LE.jpg",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  63,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "mta egypt - 30 LE.jpg",
+        "price":  30,
+        "name":  "Mta Egypt",
+        "image":  "images/categories/Endo/mta egypt - 30 LE.jpg",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  64,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "mta Gold - 30 LE.jpg",
+        "price":  30,
+        "name":  "Mta Gold",
+        "image":  "images/categories/Endo/mta Gold - 30 LE.jpg",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  65,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "one fil putty - 475 LE.webp",
+        "price":  475,
+        "name":  "One Fil Putty",
+        "image":  "images/categories/Endo/one fil putty - 475 LE.webp",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  66,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "retreatment rotary files rogin - 360 LE.jpg",
+        "price":  360,
+        "name":  "Retreatment Rotary Files Rogin",
+        "image":  "images/categories/Endo/retreatment rotary files rogin - 360 LE.jpg",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  67,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "retretment files nic - 370 LE.png",
+        "price":  370,
+        "name":  "Retretment Files Nic",
+        "image":  "images/categories/Endo/retretment files nic - 370 LE.png",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  68,
+        "hasVariants":  true,
+        "category":  "Endodontics",
+        "fileName":  "rotary file dota gold refel - 17#8 - 17#4 - 20#4 - 25#4 - 30#4 - 35#4 - 270 LE.jpg",
+        "price":  270,
+        "name":  "Rotary File Dota Gold Refel",
+        "variants":  [
+                         {
+                             "price":  270,
+                             "size":  "17#8"
+                         },
+                         {
+                             "price":  270,
+                             "size":  "17#4"
+                         },
+                         {
+                             "price":  270,
+                             "size":  "20#4"
+                         },
+                         {
+                             "price":  270,
+                             "size":  "25#4"
+                         },
+                         {
+                             "price":  270,
+                             "size":  "30#4"
+                         },
+                         {
+                             "price":  270,
+                             "size":  "35#4"
+                         }
+                     ],
+        "image":  "images/categories/Endo/rotary file dota gold refel - 17#8 - 17#4 - 20#4 - 25#4 - 30#4 - 35#4 - 270 LE.jpg",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  69,
+        "hasVariants":  true,
+        "category":  "Endodontics",
+        "fileName":  "rotary files dota flex - 19#2 - 250 LE.webp",
+        "price":  250,
+        "name":  "Rotary Files Dota Flex",
+        "variants":  [
+                         {
+                             "price":  250,
+                             "size":  "19#2"
+                         }
+                     ],
+        "image":  "images/categories/Endo/rotary files dota flex - 19#2 - 250 LE.webp",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  70,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "rotary files dota fury - 450 LE.jpg",
+        "price":  450,
+        "name":  "Rotary Files Dota Fury",
+        "image":  "images/categories/Endo/rotary files dota fury - 450 LE.jpg",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  71,
+        "hasVariants":  true,
+        "category":  "Endodontics",
+        "fileName":  "rotary files dota fury refel - 20#4 - 25#4 - 30#4 - 35#4 - 40#4 - 390 LE.jpg",
+        "price":  390,
+        "name":  "Rotary Files Dota Fury Refel",
+        "variants":  [
+                         {
+                             "price":  390,
+                             "size":  "20#4"
+                         },
+                         {
+                             "price":  390,
+                             "size":  "25#4"
+                         },
+                         {
+                             "price":  390,
+                             "size":  "30#4"
+                         },
+                         {
+                             "price":  390,
+                             "size":  "35#4"
+                         },
+                         {
+                             "price":  390,
+                             "size":  "40#4"
+                         }
+                     ],
+        "image":  "images/categories/Endo/rotary files dota fury refel - 20#4 - 25#4 - 30#4 - 35#4 - 40#4 - 390 LE.jpg",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  72,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "rotary files dota gold - 320 LE.jpg",
+        "price":  320,
+        "name":  "Rotary Files Dota Gold",
+        "image":  "images/categories/Endo/rotary files dota gold - 320 LE.jpg",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  73,
+        "hasVariants":  true,
+        "category":  "Endodontics",
+        "fileName":  "rotary files dota path files - 13#2 - 16#2 - 230 LE.webp",
+        "price":  230,
+        "name":  "Rotary Files Dota Path Files",
+        "variants":  [
+                         {
+                             "price":  230,
+                             "size":  "13#2"
+                         },
+                         {
+                             "price":  230,
+                             "size":  "16#2"
+                         }
+                     ],
+        "image":  "images/categories/Endo/rotary files dota path files - 13#2 - 16#2 - 230 LE.webp",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  74,
+        "hasVariants":  true,
+        "category":  "Endodontics",
+        "fileName":  "rotary files m 3 pro refel - 13#2 - 17#8 - 20#4 - 25#4 - 30#4 - 35#4 - 300 LE.png",
+        "price":  300,
+        "name":  "Rotary Files M 3 Pro Refel",
+        "variants":  [
+                         {
+                             "price":  300,
+                             "size":  "13#2"
+                         },
+                         {
+                             "price":  300,
+                             "size":  "17#8"
+                         },
+                         {
+                             "price":  300,
+                             "size":  "20#4"
+                         },
+                         {
+                             "price":  300,
+                             "size":  "25#4"
+                         },
+                         {
+                             "price":  300,
+                             "size":  "30#4"
+                         },
+                         {
+                             "price":  300,
+                             "size":  "35#4"
+                         }
+                     ],
+        "image":  "images/categories/Endo/rotary files m 3 pro refel - 13#2 - 17#8 - 20#4 - 25#4 - 30#4 - 35#4 - 300 LE.png",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  75,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "rotary files m3 pro - 270 LE.webp",
+        "price":  270,
+        "name":  "Rotary Files M3 Pro",
+        "image":  "images/categories/Endo/rotary files m3 pro - 270 LE.webp",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  76,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "rotary files pepsi gold - 300 LE.jpg",
+        "price":  300,
+        "name":  "Rotary Files Pepsi Gold",
+        "image":  "images/categories/Endo/rotary files pepsi gold - 300 LE.jpg",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  77,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "rotary files plex v - 550 LE.webp",
+        "price":  550,
+        "name":  "Rotary Files Plex V",
+        "image":  "images/categories/Endo/rotary files plex v - 550 LE.webp",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  78,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "rotary files rogin - 330 LE.webp",
+        "price":  330,
+        "name":  "Rotary Files Rogin",
+        "image":  "images/categories/Endo/rotary files rogin - 330 LE.webp",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  79,
+        "hasVariants":  true,
+        "category":  "Endodontics",
+        "fileName":  "rotary files rogin refel - opener - 25#4 - 330 LE.webp",
+        "price":  330,
+        "name":  "Rotary Files Rogin Refel",
+        "variants":  [
+                         {
+                             "price":  330,
+                             "size":  "opener"
+                         },
+                         {
+                             "price":  330,
+                             "size":  "25#4"
+                         }
+                     ],
+        "image":  "images/categories/Endo/rotary files rogin refel - opener - 25#4 - 330 LE.webp",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  80,
+        "hasVariants":  true,
+        "category":  "Endodontics",
+        "fileName":  "rotary files x file - 17#4 - 20#4 - 25#4 - 30#4 - 35#4 - 25#8 - asorted - 230 LE.jpg",
+        "price":  230,
+        "name":  "Rotary Files X File",
+        "variants":  [
+                         {
+                             "price":  230,
+                             "size":  "17#4"
+                         },
+                         {
+                             "price":  230,
+                             "size":  "20#4"
+                         },
+                         {
+                             "price":  230,
+                             "size":  "25#4"
+                         },
+                         {
+                             "price":  230,
+                             "size":  "30#4"
+                         },
+                         {
+                             "price":  230,
+                             "size":  "35#4"
+                         },
+                         {
+                             "price":  230,
+                             "size":  "25#8"
+                         },
+                         {
+                             "price":  230,
+                             "size":  "asorted"
+                         }
+                     ],
+        "image":  "images/categories/Endo/rotary files x file - 17#4 - 20#4 - 25#4 - 30#4 - 35#4 - 25#8 - asorted - 230 LE.jpg",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  81,
+        "hasVariants":  true,
+        "category":  "Endodontics",
+        "fileName":  "rotary files x file refel - 17#4 - 20#4 - 25#4 - 30#4 - 35#4 - 25#8 - asorted - 230 LE.jpg",
+        "price":  230,
+        "name":  "Rotary Files X File Refel",
+        "variants":  [
+                         {
+                             "price":  230,
+                             "size":  "17#4"
+                         },
+                         {
+                             "price":  230,
+                             "size":  "20#4"
+                         },
+                         {
+                             "price":  230,
+                             "size":  "25#4"
+                         },
+                         {
+                             "price":  230,
+                             "size":  "30#4"
+                         },
+                         {
+                             "price":  230,
+                             "size":  "35#4"
+                         },
+                         {
+                             "price":  230,
+                             "size":  "25#8"
+                         },
+                         {
+                             "price":  230,
+                             "size":  "asorted"
+                         }
+                     ],
+        "image":  "images/categories/Endo/rotary files x file refel - 17#4 - 20#4 - 25#4 - 30#4 - 35#4 - 25#8 - asorted - 230 LE.jpg",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  82,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "sealer adseal plus - 890 LE.png",
+        "price":  890,
+        "name":  "Sealer Adseal Plus",
+        "image":  "images/categories/Endo/sealer adseal plus - 890 LE.png",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  83,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "sealer cerafill - 820 LE.jpg",
+        "price":  820,
+        "name":  "Sealer Cerafill",
+        "image":  "images/categories/Endo/sealer cerafill - 820 LE.jpg",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  84,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "sealer ceraseal - 2100 LE.jpg",
+        "price":  2100,
+        "name":  "Sealer Ceraseal",
+        "image":  "images/categories/Endo/sealer ceraseal - 2100 LE.jpg",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  85,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "sealer diaproseal - 1170 LE.jpg",
+        "price":  1170,
+        "name":  "Sealer Diaproseal",
+        "image":  "images/categories/Endo/sealer diaproseal - 1170 LE.jpg",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  86,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "sealer sealmate pro 18 gm - 650 LE.webp",
+        "price":  650,
+        "name":  "Sealer Sealmate Pro 18 Gm",
+        "image":  "images/categories/Endo/sealer sealmate pro 18 gm - 650 LE.webp",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  87,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "sealer zical - 400 LE.jpg",
+        "price":  400,
+        "name":  "Sealer Zical",
+        "image":  "images/categories/Endo/sealer zical - 400 LE.jpg",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  88,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "well root mta putty capsule - 550 LE.jpg",
+        "price":  550,
+        "name":  "Well Root Mta Putty Capsule",
+        "image":  "images/categories/Endo/well root mta putty capsule - 550 LE.jpg",
+        "folderName":  "Endo"
+    },
+    {
+        "id":  89,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "biodent irregation needles - 320 LE.webp",
+        "price":  320,
+        "name":  "Biodent Irregation Needles",
+        "image":  "images/categories/Endo 2/biodent irregation needles - 320 LE.webp",
+        "folderName":  "Endo 2"
+    },
+    {
+        "id":  90,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "diaroot bioceramic sealer 2g - 1780 LE.jpeg",
+        "price":  1780,
+        "name":  "Diaroot Bioceramic Sealer 2G",
+        "image":  "images/categories/Endo 2/diaroot bioceramic sealer 2g - 1780 LE.jpeg",
+        "folderName":  "Endo 2"
+    },
+    {
+        "id":  91,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "endo ice maquira - 860 LE.jpeg",
+        "price":  860,
+        "name":  "Endo Ice Maquira",
+        "image":  "images/categories/Endo 2/endo ice maquira - 860 LE.jpeg",
+        "folderName":  "Endo 2"
+    },
+    {
+        "id":  92,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "endo ruler block - 50 LE.jpg",
+        "price":  50,
+        "name":  "Endo Ruler Block",
+        "image":  "images/categories/Endo 2/endo ruler block - 50 LE.jpg",
+        "folderName":  "Endo 2"
+    },
+    {
+        "id":  93,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "endo z bur - 40 LE.jpg",
+        "price":  40,
+        "name":  "Endo Z Bur",
+        "image":  "images/categories/Endo 2/endo z bur - 40 LE.jpg",
+        "folderName":  "Endo 2"
+    },
+    {
+        "id":  94,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "fanta side vented needles - 470 LE.jpeg",
+        "price":  470,
+        "name":  "Fanta Side Vented Needles",
+        "image":  "images/categories/Endo 2/fanta side vented needles - 470 LE.jpeg",
+        "folderName":  "Endo 2"
+    },
+    {
+        "id":  95,
+        "hasVariants":  true,
+        "category":  "Endodontics",
+        "fileName":  "files nic - 10 - 15 - 55 LE.jpeg",
+        "price":  55,
+        "name":  "Files Nic",
+        "variants":  [
+                         {
+                             "price":  55,
+                             "size":  "10"
+                         },
+                         {
+                             "price":  55,
+                             "size":  "15"
+                         }
+                     ],
+        "image":  "images/categories/Endo 2/files nic - 10 - 15 - 55 LE.jpeg",
+        "folderName":  "Endo 2"
+    },
+    {
+        "id":  96,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "gates mani - 1~6 - 330 LE.jpg",
+        "price":  330,
+        "name":  "Gates Mani",
+        "image":  "images/categories/Endo 2/gates mani - 1~6 - 330 LE.jpg",
+        "folderName":  "Endo 2"
+    },
+    {
+        "id":  97,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "gatta percha cutter tips - 310 LE.jpeg",
+        "price":  310,
+        "name":  "Gatta Percha Cutter Tips",
+        "image":  "images/categories/Endo 2/gatta percha cutter tips - 310 LE.jpeg",
+        "folderName":  "Endo 2"
+    },
+    {
+        "id":  98,
+        "hasVariants":  true,
+        "category":  "Endodontics",
+        "fileName":  "gatta percha meta biomed - 20#2 - 25#2 - 30#2 - 35#2 - 40#2 - 20#4 - 25#4 - 30#4 - 35#4 - 40#4 - 20#6 - 25#6 - 115 LE.jpeg",
+        "price":  115,
+        "name":  "Gatta Percha Meta Biomed",
+        "variants":  [
+                         {
+                             "price":  115,
+                             "size":  "20#2"
+                         },
+                         {
+                             "price":  115,
+                             "size":  "25#2"
+                         },
+                         {
+                             "price":  115,
+                             "size":  "30#2"
+                         },
+                         {
+                             "price":  115,
+                             "size":  "35#2"
+                         },
+                         {
+                             "price":  115,
+                             "size":  "40#2"
+                         },
+                         {
+                             "price":  115,
+                             "size":  "20#4"
+                         },
+                         {
+                             "price":  115,
+                             "size":  "25#4"
+                         },
+                         {
+                             "price":  115,
+                             "size":  "30#4"
+                         },
+                         {
+                             "price":  115,
+                             "size":  "35#4"
+                         },
+                         {
+                             "price":  115,
+                             "size":  "40#4"
+                         },
+                         {
+                             "price":  115,
+                             "size":  "20#6"
+                         },
+                         {
+                             "price":  115,
+                             "size":  "25#6"
+                         }
+                     ],
+        "image":  "images/categories/Endo 2/gatta percha meta biomed - 20#2 - 25#2 - 30#2 - 35#2 - 40#2 - 20#4 - 25#4 - 30#4 - 35#4 - 40#4 - 20#6 - 25#6 - 115 LE.jpeg",
+        "folderName":  "Endo 2"
+    },
+    {
+        "id":  99,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "high solvent chem - 60 LE.jpg",
+        "price":  60,
+        "name":  "High Solvent Chem",
+        "image":  "images/categories/Endo 2/high solvent chem - 60 LE.jpg",
+        "folderName":  "Endo 2"
+    },
+    {
+        "id":  100,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "meta edeta cream - 240 LE.jpg",
+        "price":  240,
+        "name":  "Meta Edeta Cream",
+        "image":  "images/categories/Endo 2/meta edeta cream - 240 LE.jpg",
+        "folderName":  "Endo 2"
+    },
+    {
+        "id":  101,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "mta toothmate - 120 LE.webp",
+        "price":  120,
+        "name":  "Mta Toothmate",
+        "image":  "images/categories/Endo 2/mta toothmate - 120 LE.webp",
+        "folderName":  "Endo 2"
+    },
+    {
+        "id":  102,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "nic retretment rotary files - 370 LE.jpg",
+        "price":  370,
+        "name":  "Nic Retretment Rotary Files",
+        "image":  "images/categories/Endo 2/nic retretment rotary files - 370 LE.jpg",
+        "folderName":  "Endo 2"
+    },
+    {
+        "id":  103,
+        "hasVariants":  true,
+        "category":  "Endodontics",
+        "fileName":  "paper point meta biomed - 20#2 - 25#2 - 30#2 - 35#2 - 40#2 - 20#4 - 25#4 - 30#4 - 35#4 - 40#4 - 20#6 - 25#6 - 115 LE.jpeg",
+        "price":  115,
+        "name":  "Paper Point Meta Biomed",
+        "variants":  [
+                         {
+                             "price":  115,
+                             "size":  "20#2"
+                         },
+                         {
+                             "price":  115,
+                             "size":  "25#2"
+                         },
+                         {
+                             "price":  115,
+                             "size":  "30#2"
+                         },
+                         {
+                             "price":  115,
+                             "size":  "35#2"
+                         },
+                         {
+                             "price":  115,
+                             "size":  "40#2"
+                         },
+                         {
+                             "price":  115,
+                             "size":  "20#4"
+                         },
+                         {
+                             "price":  115,
+                             "size":  "25#4"
+                         },
+                         {
+                             "price":  115,
+                             "size":  "30#4"
+                         },
+                         {
+                             "price":  115,
+                             "size":  "35#4"
+                         },
+                         {
+                             "price":  115,
+                             "size":  "40#4"
+                         },
+                         {
+                             "price":  115,
+                             "size":  "20#6"
+                         },
+                         {
+                             "price":  115,
+                             "size":  "25#6"
+                         }
+                     ],
+        "image":  "images/categories/Endo 2/paper point meta biomed - 20#2 - 25#2 - 30#2 - 35#2 - 40#2 - 20#4 - 25#4 - 30#4 - 35#4 - 40#4 - 20#6 - 25#6 - 115 LE.jpeg",
+        "folderName":  "Endo 2"
+    },
+    {
+        "id":  104,
+        "hasVariants":  true,
+        "category":  "Endodontics",
+        "fileName":  "paper point sani - 25#4 - 30#4 - 35#4 - 30#6 - 75 LE.webp",
+        "price":  75,
+        "name":  "Paper Point Sani",
+        "variants":  [
+                         {
+                             "price":  75,
+                             "size":  "25#4"
+                         },
+                         {
+                             "price":  75,
+                             "size":  "30#4"
+                         },
+                         {
+                             "price":  75,
+                             "size":  "35#4"
+                         },
+                         {
+                             "price":  75,
+                             "size":  "30#6"
+                         }
+                     ],
+        "image":  "images/categories/Endo 2/paper point sani - 25#4 - 30#4 - 35#4 - 30#6 - 75 LE.webp",
+        "folderName":  "Endo 2"
+    },
+    {
+        "id":  105,
+        "hasVariants":  true,
+        "category":  "Endodontics",
+        "fileName":  "spreader mani - 25 - 30 - 210 LE.jpg",
+        "price":  210,
+        "name":  "Spreader Mani",
+        "variants":  [
+                         {
+                             "price":  210,
+                             "size":  "25"
+                         },
+                         {
+                             "price":  210,
+                             "size":  "30"
+                         }
+                     ],
+        "image":  "images/categories/Endo 2/spreader mani - 25 - 30 - 210 LE.jpg",
+        "folderName":  "Endo 2"
+    },
+    {
+        "id":  106,
+        "hasVariants":  false,
+        "category":  "Endodontics",
+        "fileName":  "well root st bioceramic sealer .5g - 750 LE.jpg",
+        "price":  750,
+        "name":  "Well Root St Bioceramic Sealer .5G",
+        "image":  "images/categories/Endo 2/well root st bioceramic sealer .5g - 750 LE.jpg",
+        "folderName":  "Endo 2"
+    },
+    {
+        "id":  107,
+        "hasVariants":  false,
+        "category":  "Orthodontics",
+        "fileName":  "bracket chienes - 70 LE.jpeg",
+        "price":  70,
+        "name":  "Bracket Chienes",
+        "image":  "images/categories/Ortho/bracket chienes - 70 LE.jpeg",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  108,
+        "hasVariants":  false,
+        "category":  "Orthodontics",
+        "fileName":  "bracket holder mac - 160 LE.jpeg",
+        "price":  160,
+        "name":  "Bracket Holder Mac",
+        "image":  "images/categories/Ortho/bracket holder mac - 160 LE.jpeg",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  109,
+        "hasVariants":  false,
+        "category":  "Orthodontics",
+        "fileName":  "bracket orthometric with tube - 550 LE.webp",
+        "price":  550,
+        "name":  "Bracket Orthometric With Tube",
+        "image":  "images/categories/Ortho/bracket orthometric with tube - 550 LE.webp",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  110,
+        "hasVariants":  false,
+        "category":  "Orthodontics",
+        "fileName":  "buccal tube - 20 LE.jpg",
+        "price":  20,
+        "name":  "Buccal Tube",
+        "image":  "images/categories/Ortho/buccal tube - 20 LE.jpg",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  111,
+        "hasVariants":  false,
+        "category":  "Orthodontics",
+        "fileName":  "ceramic bracket chienes - 130 LE.webp",
+        "price":  130,
+        "name":  "Ceramic Bracket Chienes",
+        "image":  "images/categories/Ortho/ceramic bracket chienes - 130 LE.webp",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  112,
+        "hasVariants":  false,
+        "category":  "Orthodontics",
+        "fileName":  "closed spring - 75 LE.png",
+        "price":  75,
+        "name":  "Closed Spring",
+        "image":  "images/categories/Ortho/closed spring - 75 LE.png",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  113,
+        "hasVariants":  true,
+        "category":  "Orthodontics",
+        "fileName":  "elastics chinese -1#4 - 1#8 - 3#8 - 3#16 - 5#16 - 20 LE.jpg",
+        "price":  20,
+        "name":  "Elastics Chinese -1#4",
+        "variants":  [
+                         {
+                             "price":  20,
+                             "size":  "1#8"
+                         },
+                         {
+                             "price":  20,
+                             "size":  "3#8"
+                         },
+                         {
+                             "price":  20,
+                             "size":  "3#16"
+                         },
+                         {
+                             "price":  20,
+                             "size":  "5#16"
+                         }
+                     ],
+        "image":  "images/categories/Ortho/elastics chinese -1#4 - 1#8 - 3#8 - 3#16 - 5#16 - 20 LE.jpg",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  114,
+        "hasVariants":  false,
+        "category":  "Orthodontics",
+        "fileName":  "eyelets - 8 LE.jpeg",
+        "price":  8,
+        "name":  "Eyelets",
+        "image":  "images/categories/Ortho/eyelets - 8 LE.jpeg",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  115,
+        "hasVariants":  false,
+        "category":  "Orthodontics",
+        "fileName":  "interdental brush - 55 LE.jpg",
+        "price":  55,
+        "name":  "Interdental Brush",
+        "image":  "images/categories/Ortho/interdental brush - 55 LE.jpg",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  116,
+        "hasVariants":  false,
+        "category":  "Orthodontics",
+        "fileName":  "ligature wire - 2 LE.jpg",
+        "price":  2,
+        "name":  "Ligature Wire",
+        "image":  "images/categories/Ortho/ligature wire - 2 LE.jpg",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  117,
+        "hasVariants":  false,
+        "category":  "Orthodontics",
+        "fileName":  "mini implant ortho - 55 LE.jpg",
+        "price":  55,
+        "name":  "Mini Implant Ortho",
+        "image":  "images/categories/Ortho/mini implant ortho - 55 LE.jpg",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  118,
+        "hasVariants":  false,
+        "category":  "Orthodontics",
+        "fileName":  "o tie mac  - 4 LE.jpeg",
+        "price":  4,
+        "name":  "O Tie Mac",
+        "image":  "images/categories/Ortho/o tie mac  - 4 LE.jpeg",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  119,
+        "hasVariants":  false,
+        "category":  "Orthodontics",
+        "fileName":  "ortho hooks - 7 LE.jpg",
+        "price":  7,
+        "name":  "Ortho Hooks",
+        "image":  "images/categories/Ortho/ortho hooks - 7 LE.jpg",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  120,
+        "hasVariants":  false,
+        "category":  "Orthodontics",
+        "fileName":  "ortho metal strip -  55 LE.jpg",
+        "price":  55,
+        "name":  "Ortho Metal Strip",
+        "image":  "images/categories/Ortho/ortho metal strip -  55 LE.jpg",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  121,
+        "hasVariants":  false,
+        "category":  "Orthodontics",
+        "fileName":  "ortho open spring - 50 LE.jpeg",
+        "price":  50,
+        "name":  "Ortho Open Spring",
+        "image":  "images/categories/Ortho/ortho open spring - 50 LE.jpeg",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  122,
+        "hasVariants":  false,
+        "category":  "Orthodontics",
+        "fileName":  "ortho seperator - 15 LE.webp",
+        "price":  15,
+        "name":  "Ortho Seperator",
+        "image":  "images/categories/Ortho/ortho seperator - 15 LE.webp",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  123,
+        "hasVariants":  false,
+        "category":  "Orthodontics",
+        "fileName":  "ortho traction chain gold plated - 40 LE.webp",
+        "price":  40,
+        "name":  "Ortho Traction Chain Gold Plated",
+        "image":  "images/categories/Ortho/ortho traction chain gold plated - 40 LE.webp",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  124,
+        "hasVariants":  false,
+        "category":  "Orthodontics",
+        "fileName":  "ortho wax - 15 LE.jpeg",
+        "price":  15,
+        "name":  "Ortho Wax",
+        "image":  "images/categories/Ortho/ortho wax - 15 LE.jpeg",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  125,
+        "hasVariants":  false,
+        "category":  "Orthodontics",
+        "fileName":  "ortho wires ovoid - 30 LE.webp",
+        "price":  30,
+        "name":  "Ortho Wires Ovoid",
+        "image":  "images/categories/Ortho/ortho wires ovoid - 30 LE.webp",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  126,
+        "hasVariants":  false,
+        "category":  "Orthodontics",
+        "fileName":  "ortho wires rectanguler - 40 LE.jpg",
+        "price":  40,
+        "name":  "Ortho Wires Rectanguler",
+        "image":  "images/categories/Ortho/ortho wires rectanguler - 40 LE.jpg",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  127,
+        "hasVariants":  false,
+        "category":  "Orthodontics",
+        "fileName":  "power chain chinese - 90 LE.jpg",
+        "price":  90,
+        "name":  "Power Chain Chinese",
+        "image":  "images/categories/Ortho/power chain chinese - 90 LE.jpg",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  128,
+        "hasVariants":  false,
+        "category":  "Orthodontics",
+        "fileName":  "rotational wedges - 10 LE.jpeg",
+        "price":  10,
+        "name":  "Rotational Wedges",
+        "image":  "images/categories/Ortho/rotational wedges - 10 LE.jpeg",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  129,
+        "hasVariants":  false,
+        "category":  "Orthodontics",
+        "fileName":  "step plier mac - 670 LE.jpeg",
+        "price":  670,
+        "name":  "Step Plier Mac",
+        "image":  "images/categories/Ortho/step plier mac - 670 LE.jpeg",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  130,
+        "hasVariants":  false,
+        "category":  "Orthodontics",
+        "fileName":  "tounge spike - 35 LE.jpg",
+        "price":  35,
+        "name":  "Tounge Spike",
+        "image":  "images/categories/Ortho/tounge spike - 35 LE.jpg",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  131,
+        "hasVariants":  false,
+        "category":  "Orthodontics",
+        "fileName":  "tube holder pakistane - 190 LE.webp",
+        "price":  190,
+        "name":  "Tube Holder Pakistane",
+        "image":  "images/categories/Ortho/tube holder pakistane - 190 LE.webp",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  132,
+        "hasVariants":  false,
+        "category":  "Orthodontics",
+        "fileName":  "twist flex wire - 75 LE.jpeg",
+        "price":  75,
+        "name":  "Twist Flex Wire",
+        "image":  "images/categories/Ortho/twist flex wire - 75 LE.jpeg",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  133,
+        "hasVariants":  false,
+        "category":  "Orthodontics",
+        "fileName":  "wire dead soft - 35 LE.jpg",
+        "price":  35,
+        "name":  "Wire Dead Soft",
+        "image":  "images/categories/Ortho/wire dead soft - 35 LE.jpg",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  134,
+        "hasVariants":  false,
+        "category":  "Orthodontics",
+        "fileName":  "z plier mac - 680 LE.webp",
+        "price":  680,
+        "name":  "Z Plier Mac",
+        "image":  "images/categories/Ortho/z plier mac - 680 LE.webp",
+        "folderName":  "Ortho"
+    },
+    {
+        "id":  135,
+        "hasVariants":  false,
+        "category":  "Pediatric",
+        "fileName":  "dota baby rotary files - 325 LE.webp",
+        "price":  325,
+        "name":  "Dota Baby Rotary Files",
+        "image":  "images/categories/Pedo/dota baby rotary files - 325 LE.webp",
+        "folderName":  "Pedo"
+    },
+    {
+        "id":  136,
+        "hasVariants":  false,
+        "category":  "Pediatric",
+        "fileName":  "i zoe cement - 650 LE.jpeg",
+        "price":  650,
+        "name":  "I Zoe Cement",
+        "image":  "images/categories/Pedo/i zoe cement - 650 LE.jpeg",
+        "folderName":  "Pedo"
+    },
+    {
+        "id":  137,
+        "hasVariants":  false,
+        "category":  "Pediatric",
+        "fileName":  "Zinconol - 520 LE.jpg",
+        "price":  520,
+        "name":  "Zinconol",
+        "image":  "images/categories/Pedo/Zinconol - 520 LE.jpg",
+        "folderName":  "Pedo"
+    },
+    {
+        "id":  138,
+        "hasVariants":  false,
+        "category":  "Perio",
+        "fileName":  "bleaching retractor - 150 LE.jpeg",
+        "price":  150,
+        "name":  "Bleaching Retractor",
+        "image":  "images/categories/Perio/bleaching retractor - 150 LE.jpeg",
+        "folderName":  "Perio"
+    },
+    {
+        "id":  139,
+        "hasVariants":  false,
+        "category":  "Perio",
+        "fileName":  "end cut bur - 15 LE.jpg",
+        "price":  15,
+        "name":  "End Cut Bur",
+        "image":  "images/categories/Perio/end cut bur - 15 LE.jpg",
+        "folderName":  "Perio"
+    },
+    {
+        "id":  140,
+        "hasVariants":  false,
+        "category":  "Perio",
+        "fileName":  "EZ cure Dental - 140 LE.jpeg",
+        "price":  140,
+        "name":  "Ez Cure Dental",
+        "image":  "images/categories/Perio/EZ cure Dental - 140 LE.jpeg",
+        "folderName":  "Perio"
+    },
+    {
+        "id":  141,
+        "hasVariants":  false,
+        "category":  "Perio",
+        "fileName":  "fluorodose - 90 LE.jpeg",
+        "price":  90,
+        "name":  "Fluorodose",
+        "image":  "images/categories/Perio/fluorodose - 90 LE.jpeg",
+        "folderName":  "Perio"
+    },
+    {
+        "id":  142,
+        "hasVariants":  false,
+        "category":  "Perio",
+        "fileName":  "high cure chem - 75 LE.jpg",
+        "price":  75,
+        "name":  "High Cure Chem",
+        "image":  "images/categories/Perio/high cure chem - 75 LE.jpg",
+        "folderName":  "Perio"
+    },
+    {
+        "id":  143,
+        "hasVariants":  false,
+        "category":  "Perio",
+        "fileName":  "high stop chem - 50 LE.jpg",
+        "price":  50,
+        "name":  "High Stop Chem",
+        "image":  "images/categories/Perio/high stop chem - 50 LE.jpg",
+        "folderName":  "Perio"
+    },
+    {
+        "id":  144,
+        "hasVariants":  false,
+        "category":  "Perio",
+        "fileName":  "polishing bruches bristle  - 500 LE.jpg",
+        "price":  500,
+        "name":  "Polishing Bruches Bristle",
+        "image":  "images/categories/Perio/polishing bruches bristle  - 500 LE.jpg",
+        "folderName":  "Perio"
+    },
+    {
+        "id":  145,
+        "hasVariants":  false,
+        "category":  "Perio",
+        "fileName":  "polishing bruches plastic - 140 LE.jpg",
+        "price":  140,
+        "name":  "Polishing Bruches Plastic",
+        "image":  "images/categories/Perio/polishing bruches plastic - 140 LE.jpg",
+        "folderName":  "Perio"
+    },
+    {
+        "id":  146,
+        "hasVariants":  false,
+        "category":  "Perio",
+        "fileName":  "polishing paste BMS - 275 LE.jpeg",
+        "price":  275,
+        "name":  "Polishing Paste Bms",
+        "image":  "images/categories/Perio/polishing paste BMS - 275 LE.jpeg",
+        "folderName":  "Perio"
+    },
+    {
+        "id":  147,
+        "hasVariants":  false,
+        "category":  "Perio",
+        "fileName":  "polishing paste chem - 70 LE.png",
+        "price":  70,
+        "name":  "Polishing Paste Chem",
+        "image":  "images/categories/Perio/polishing paste chem - 70 LE.png",
+        "folderName":  "Perio"
+    },
+    {
+        "id":  148,
+        "hasVariants":  false,
+        "category":  "Perio",
+        "fileName":  "polishing pate quartz - 320 LE.jpeg",
+        "price":  320,
+        "name":  "Polishing Pate Quartz",
+        "image":  "images/categories/Perio/polishing pate quartz - 320 LE.jpeg",
+        "folderName":  "Perio"
+    },
+    {
+        "id":  149,
+        "hasVariants":  false,
+        "category":  "Perio",
+        "fileName":  "therma cut bur - 30 LE.webp",
+        "price":  30,
+        "name":  "Therma Cut Bur",
+        "image":  "images/categories/Perio/therma cut bur - 30 LE.webp",
+        "folderName":  "Perio"
+    },
+    {
+        "id":  150,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "addition light kromopan - 1250 LE.jpg",
+        "price":  1250,
+        "name":  "Addition Light Kromopan",
+        "image":  "images/categories/Prothetic/addition light kromopan - 1250 LE.jpg",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  151,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "addition MAC kit - 1350 LE.jpg",
+        "price":  1350,
+        "name":  "Addition Mac Kit",
+        "image":  "images/categories/Prothetic/addition MAC kit - 1350 LE.jpg",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  152,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "addition putty kromopan - 1520 LE.jpg",
+        "price":  1520,
+        "name":  "Addition Putty Kromopan",
+        "image":  "images/categories/Prothetic/addition putty kromopan - 1520 LE.jpg",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  153,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "addition silicon kromopan - 1400 LE.jpg",
+        "price":  1400,
+        "name":  "Addition Silicon Kromopan",
+        "image":  "images/categories/Prothetic/addition silicon kromopan - 1400 LE.jpg",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  154,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "aliginate beyzen - 140 LE.jpg",
+        "price":  140,
+        "name":  "Aliginate Beyzen",
+        "image":  "images/categories/Prothetic/aliginate beyzen - 140 LE.jpg",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  155,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "aliginate BMS - 260 LE.jpg",
+        "price":  260,
+        "name":  "Aliginate Bms",
+        "image":  "images/categories/Prothetic/aliginate BMS - 260 LE.jpg",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  156,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "aliginate cavex - 470 LE.jpg",
+        "price":  470,
+        "name":  "Aliginate Cavex",
+        "image":  "images/categories/Prothetic/aliginate cavex - 470 LE.jpg",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  157,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "aliginate hydrogum 5 - 500 LE.webp",
+        "price":  500,
+        "name":  "Aliginate Hydrogum 5",
+        "image":  "images/categories/Prothetic/aliginate hydrogum 5 - 500 LE.webp",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  158,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "aliginate hygedent - 260 LE.webp",
+        "price":  260,
+        "name":  "Aliginate Hygedent",
+        "image":  "images/categories/Prothetic/aliginate hygedent - 260 LE.webp",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  159,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "aliginate IQ - 200 LE.jpg",
+        "price":  200,
+        "name":  "Aliginate Iq",
+        "image":  "images/categories/Prothetic/aliginate IQ - 200 LE.jpg",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  160,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "aliginate MAC - 160 LE.jpg",
+        "price":  160,
+        "name":  "Aliginate Mac",
+        "image":  "images/categories/Prothetic/aliginate MAC - 160 LE.jpg",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  161,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "BMS cement - 1670 LE.jpg",
+        "price":  1670,
+        "name":  "Bms Cement",
+        "image":  "images/categories/Prothetic/BMS cement - 1670 LE.jpg",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  162,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "body silaxil- 500 LE.jpg",
+        "price":  500,
+        "name":  "Body Silaxil",
+        "image":  "images/categories/Prothetic/body silaxil- 500 LE.jpg",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  163,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "catalyst BMS - 440 LE.jpg",
+        "price":  440,
+        "name":  "Catalyst Bms",
+        "image":  "images/categories/Prothetic/catalyst BMS - 440 LE.jpg",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  164,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "catalyst silaxil- 490 LE.jpg",
+        "price":  490,
+        "name":  "Catalyst Silaxil",
+        "image":  "images/categories/Prothetic/catalyst silaxil- 490 LE.jpg",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  165,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "catalyst zetaplus - 520 LE.webp",
+        "price":  520,
+        "name":  "Catalyst Zetaplus",
+        "image":  "images/categories/Prothetic/catalyst zetaplus - 520 LE.webp",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  166,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "Cavex temporary cement - 720 LE.jpg",
+        "price":  720,
+        "name":  "Cavex Temporary Cement",
+        "image":  "images/categories/Prothetic/Cavex temporary cement - 720 LE.jpg",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  167,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "han luting cement - 930 LE.jpg",
+        "price":  930,
+        "name":  "Han Luting Cement",
+        "image":  "images/categories/Prothetic/han luting cement - 930 LE.jpg",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  168,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "han temp cement - 400 LE.jpg",
+        "price":  400,
+        "name":  "Han Temp Cement",
+        "image":  "images/categories/Prothetic/han temp cement - 400 LE.jpg",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  169,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "han temp crown - 1350 LE.jpg",
+        "price":  1350,
+        "name":  "Han Temp Crown",
+        "image":  "images/categories/Prothetic/han temp crown - 1350 LE.jpg",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  170,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "Kromoglass cement 10g - 520 LE.jpg",
+        "price":  520,
+        "name":  "Kromoglass Cement 10G",
+        "image":  "images/categories/Prothetic/Kromoglass cement 10g - 520 LE.jpg",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  171,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "Kromoglass cement 35g - 1530 LE.jpg",
+        "price":  1530,
+        "name":  "Kromoglass Cement 35G",
+        "image":  "images/categories/Prothetic/Kromoglass cement 35g - 1530 LE.jpg",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  172,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "light BMS - 1180 LE.jpg",
+        "price":  1180,
+        "name":  "Light Bms",
+        "image":  "images/categories/Prothetic/light BMS - 1180 LE.jpg",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  173,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "light silaxil- 525 LE.jpg",
+        "price":  525,
+        "name":  "Light Silaxil",
+        "image":  "images/categories/Prothetic/light silaxil- 525 LE.jpg",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  174,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "light zetaplus - 560 LE.webp",
+        "price":  560,
+        "name":  "Light Zetaplus",
+        "image":  "images/categories/Prothetic/light zetaplus - 560 LE.webp",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  175,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "nova glass filling - 670 LE.jpg",
+        "price":  670,
+        "name":  "Nova Glass Filling",
+        "image":  "images/categories/Prothetic/nova glass filling - 670 LE.jpg",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  176,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "putty BMS - 1280 LE.jpg",
+        "price":  1280,
+        "name":  "Putty Bms",
+        "image":  "images/categories/Prothetic/putty BMS - 1280 LE.jpg",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  177,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "putty silaxil- 900 LE.jpg",
+        "price":  900,
+        "name":  "Putty Silaxil",
+        "image":  "images/categories/Prothetic/putty silaxil- 900 LE.jpg",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  178,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "putty zetaplus - 930 LE.webp",
+        "price":  930,
+        "name":  "Putty Zetaplus",
+        "image":  "images/categories/Prothetic/putty zetaplus - 930 LE.webp",
+        "folderName":  "Prothetic"
+    },
+    {
+        "id":  179,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "adittion silicon gun - 420 LE.jpeg",
+        "price":  420,
+        "name":  "Adittion Silicon Gun",
+        "image":  "images/categories/Prothetic 2/adittion silicon gun - 420 LE.jpeg",
+        "folderName":  "Prothetic 2"
+    },
+    {
+        "id":  180,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "bisco porcelain etchant - 950 LE.jpg",
+        "price":  950,
+        "name":  "Bisco Porcelain Etchant",
+        "image":  "images/categories/Prothetic 2/bisco porcelain etchant - 950 LE.jpg",
+        "folderName":  "Prothetic 2"
+    },
+    {
+        "id":  181,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "charm temp crown - 1480 LE.jpg",
+        "price":  1480,
+        "name":  "Charm Temp Crown",
+        "image":  "images/categories/Prothetic 2/charm temp crown - 1480 LE.jpg",
+        "folderName":  "Prothetic 2"
+    },
+    {
+        "id":  182,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "choice 2 veneer cement - 1100 LE.jpg",
+        "price":  1100,
+        "name":  "Choice 2 Veneer Cement",
+        "image":  "images/categories/Prothetic 2/choice 2 veneer cement - 1100 LE.jpg",
+        "folderName":  "Prothetic 2"
+    },
+    {
+        "id":  183,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "GC capsule - 180 LE.jpg",
+        "price":  180,
+        "name":  "Gc Capsule",
+        "image":  "images/categories/Prothetic 2/GC capsule - 180 LE.jpg",
+        "folderName":  "Prothetic 2"
+    },
+    {
+        "id":  184,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "GC fuji glass ionemer cement - 3450 LE.jpeg",
+        "price":  3450,
+        "name":  "Gc Fuji Glass Ionemer Cement",
+        "image":  "images/categories/Prothetic 2/GC fuji glass ionemer cement - 3450 LE.jpeg",
+        "folderName":  "Prothetic 2"
+    },
+    {
+        "id":  185,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "glass ionemer apllicator gun - 850 LE.webp",
+        "price":  850,
+        "name":  "Glass Ionemer Apllicator Gun",
+        "image":  "images/categories/Prothetic 2/glass ionemer apllicator gun - 850 LE.webp",
+        "folderName":  "Prothetic 2"
+    },
+    {
+        "id":  186,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "glass slap - 10 LE.jpeg",
+        "price":  10,
+        "name":  "Glass Slap",
+        "image":  "images/categories/Prothetic 2/glass slap - 10 LE.jpeg",
+        "folderName":  "Prothetic 2"
+    },
+    {
+        "id":  187,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "green tracing sticks perfecto - 130 LE.jpg",
+        "price":  130,
+        "name":  "Green Tracing Sticks Perfecto",
+        "image":  "images/categories/Prothetic 2/green tracing sticks perfecto - 130 LE.jpg",
+        "folderName":  "Prothetic 2"
+    },
+    {
+        "id":  188,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "impression tips - 200 LE.webp",
+        "price":  200,
+        "name":  "Impression Tips",
+        "image":  "images/categories/Prothetic 2/impression tips - 200 LE.webp",
+        "folderName":  "Prothetic 2"
+    },
+    {
+        "id":  189,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "impression tips small - 90 LE.jpeg",
+        "price":  90,
+        "name":  "Impression Tips Small",
+        "image":  "images/categories/Prothetic 2/impression tips small - 90 LE.jpeg",
+        "folderName":  "Prothetic 2"
+    },
+    {
+        "id":  190,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "medicem glass ionemer cement - 1800 LE.jpg",
+        "price":  1800,
+        "name":  "Medicem Glass Ionemer Cement",
+        "image":  "images/categories/Prothetic 2/medicem glass ionemer cement - 1800 LE.jpg",
+        "folderName":  "Prothetic 2"
+    },
+    {
+        "id":  191,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "metal alginate spatula - 20 LE.jpg",
+        "price":  20,
+        "name":  "Metal Alginate Spatula",
+        "image":  "images/categories/Prothetic 2/metal alginate spatula - 20 LE.jpg",
+        "folderName":  "Prothetic 2"
+    },
+    {
+        "id":  192,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "metal trays - 9 LE.webp",
+        "price":  9,
+        "name":  "Metal Trays",
+        "image":  "images/categories/Prothetic 2/metal trays - 9 LE.webp",
+        "folderName":  "Prothetic 2"
+    },
+    {
+        "id":  193,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "micron glass ionemer cement - 515 LE.jpg",
+        "price":  515,
+        "name":  "Micron Glass Ionemer Cement",
+        "image":  "images/categories/Prothetic 2/micron glass ionemer cement - 515 LE.jpg",
+        "folderName":  "Prothetic 2"
+    },
+    {
+        "id":  194,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "plastic trays - 12 LE.jpg",
+        "price":  12,
+        "name":  "Plastic Trays",
+        "image":  "images/categories/Prothetic 2/plastic trays - 12 LE.jpg",
+        "folderName":  "Prothetic 2"
+    },
+    {
+        "id":  195,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "retraction cord chienese - 85 LE.jpeg",
+        "price":  85,
+        "name":  "Retraction Cord Chienese",
+        "image":  "images/categories/Prothetic 2/retraction cord chienese - 85 LE.jpeg",
+        "folderName":  "Prothetic 2"
+    },
+    {
+        "id":  196,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "riva self resin cement - 130 LE.jpg",
+        "price":  130,
+        "name":  "Riva Self Resin Cement",
+        "image":  "images/categories/Prothetic 2/riva self resin cement - 130 LE.jpg",
+        "folderName":  "Prothetic 2"
+    },
+    {
+        "id":  197,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "rubber bowel - 20 LE.jpg",
+        "price":  20,
+        "name":  "Rubber Bowel",
+        "image":  "images/categories/Prothetic 2/rubber bowel - 20 LE.jpg",
+        "folderName":  "Prothetic 2"
+    },
+    {
+        "id":  198,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "spatula plastic - 15 LE.jpg",
+        "price":  15,
+        "name":  "Spatula Plastic",
+        "image":  "images/categories/Prothetic 2/spatula plastic - 15 LE.jpg",
+        "folderName":  "Prothetic 2"
+    },
+    {
+        "id":  199,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "torch medium - 160 LE.jpg",
+        "price":  160,
+        "name":  "Torch Medium",
+        "image":  "images/categories/Prothetic 2/torch medium - 160 LE.jpg",
+        "folderName":  "Prothetic 2"
+    },
+    {
+        "id":  200,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "transmetal bur - 40 LE.jpeg",
+        "price":  40,
+        "name":  "Transmetal Bur",
+        "image":  "images/categories/Prothetic 2/transmetal bur - 40 LE.jpeg",
+        "folderName":  "Prothetic 2"
+    },
+    {
+        "id":  201,
+        "hasVariants":  false,
+        "category":  "Prosthetics",
+        "fileName":  "wax dentax - 200 LE.jpg",
+        "price":  200,
+        "name":  "Wax Dentax",
+        "image":  "images/categories/Prothetic 2/wax dentax - 200 LE.jpg",
+        "folderName":  "Prothetic 2"
+    },
+    {
+        "id":  202,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "amalgam YDA - 60 LE.webp",
+        "price":  60,
+        "name":  "Amalgam Yda",
+        "image":  "images/categories/Restorative/amalgam YDA - 60 LE.webp",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  203,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "capsule ever x  - 190 LE.jpg",
+        "price":  190,
+        "name":  "Capsule Ever X",
+        "image":  "images/categories/Restorative/capsule ever x  - 190 LE.jpg",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  204,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "clara flow - 220 LE.png",
+        "price":  220,
+        "name":  "Clara Flow",
+        "image":  "images/categories/Restorative/clara flow - 220 LE.png",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  205,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite 3m z 250 - 1030 LE.jpg",
+        "price":  1030,
+        "name":  "Composite 3M Z 250",
+        "image":  "images/categories/Restorative/composite 3m z 250 - 1030 LE.jpg",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  206,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite alpha - 210 LE.webp",
+        "price":  210,
+        "name":  "Composite Alpha",
+        "image":  "images/categories/Restorative/composite alpha - 210 LE.webp",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  207,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite any com - 335 LE.jpg",
+        "price":  335,
+        "name":  "Composite Any Com",
+        "image":  "images/categories/Restorative/composite any com - 335 LE.jpg",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  208,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite applic - 300 LE.jpg",
+        "price":  300,
+        "name":  "Composite Applic",
+        "image":  "images/categories/Restorative/composite applic - 300 LE.jpg",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  209,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite beautiful shofu - 870 LE.webp",
+        "price":  870,
+        "name":  "Composite Beautiful Shofu",
+        "image":  "images/categories/Restorative/composite beautiful shofu - 870 LE.webp",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  210,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite capsule dentspply - 130 LE.webp",
+        "price":  130,
+        "name":  "Composite Capsule Dentspply",
+        "image":  "images/categories/Restorative/composite capsule dentspply - 130 LE.webp",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  211,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite carisma smart - 540 LE.webp",
+        "price":  540,
+        "name":  "Composite Carisma Smart",
+        "image":  "images/categories/Restorative/composite carisma smart - 540 LE.webp",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  212,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite charmfil - 280 LE.webp",
+        "price":  280,
+        "name":  "Composite Charmfil",
+        "image":  "images/categories/Restorative/composite charmfil - 280 LE.webp",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  213,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite cirus + - 925 LE.jpg",
+        "price":  925,
+        "name":  "Composite Cirus +",
+        "image":  "images/categories/Restorative/composite cirus + - 925 LE.jpg",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  214,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite competence - 800 LE.jpg",
+        "price":  800,
+        "name":  "Composite Competence",
+        "image":  "images/categories/Restorative/composite competence - 800 LE.jpg",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  215,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite composan lcm - 680 LE.webp",
+        "price":  680,
+        "name":  "Composite Composan Lcm",
+        "image":  "images/categories/Restorative/composite composan lcm - 680 LE.webp",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  216,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite crown fill - 200 LE.webp",
+        "price":  200,
+        "name":  "Composite Crown Fill",
+        "image":  "images/categories/Restorative/composite crown fill - 200 LE.webp",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  217,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite dentspply sirona neo spectra st - 1350 LE.jpg",
+        "price":  1350,
+        "name":  "Composite Dentspply Sirona Neo Spectra St",
+        "image":  "images/categories/Restorative/composite dentspply sirona neo spectra st - 1350 LE.jpg",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  218,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite DFill - 550 LE.webp",
+        "price":  550,
+        "name":  "Composite Dfill",
+        "image":  "images/categories/Restorative/composite DFill - 550 LE.webp",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  219,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite dia fil - 290 LE.jpg",
+        "price":  290,
+        "name":  "Composite Dia Fil",
+        "image":  "images/categories/Restorative/composite dia fil - 290 LE.jpg",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  220,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite itena - 700 LE.jpg",
+        "price":  700,
+        "name":  "Composite Itena",
+        "image":  "images/categories/Restorative/composite itena - 700 LE.jpg",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  221,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite nexcomp - 280 LE.jpg",
+        "price":  280,
+        "name":  "Composite Nexcomp",
+        "image":  "images/categories/Restorative/composite nexcomp - 280 LE.jpg",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  222,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite omnichroma - 1430 LE.jpg",
+        "price":  1430,
+        "name":  "Composite Omnichroma",
+        "image":  "images/categories/Restorative/composite omnichroma - 1430 LE.jpg",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  223,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite palfique lx5 - 1450 LE.webp",
+        "price":  1450,
+        "name":  "Composite Palfique Lx5",
+        "image":  "images/categories/Restorative/composite palfique lx5 - 1450 LE.webp",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  224,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite ruby fill - 170 LE.jpg",
+        "price":  170,
+        "name":  "Composite Ruby Fill",
+        "image":  "images/categories/Restorative/composite ruby fill - 170 LE.jpg",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  225,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite shofu LS - 1140 LE.webp",
+        "price":  1140,
+        "name":  "Composite Shofu Ls",
+        "image":  "images/categories/Restorative/composite shofu LS - 1140 LE.webp",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  226,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite te econom - 540 LE.webp",
+        "price":  540,
+        "name":  "Composite Te Econom",
+        "image":  "images/categories/Restorative/composite te econom - 540 LE.webp",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  227,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite tetric b ceram 2 - 1250 LE.jpg",
+        "price":  1250,
+        "name":  "Composite Tetric B Ceram 2",
+        "image":  "images/categories/Restorative/composite tetric b ceram 2 - 1250 LE.jpg",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  228,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite tokuyama alpha - 930 LE.webp",
+        "price":  930,
+        "name":  "Composite Tokuyama Alpha",
+        "image":  "images/categories/Restorative/composite tokuyama alpha - 930 LE.webp",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  229,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite z fill - 780 LE.jpg",
+        "price":  780,
+        "name":  "Composite Z Fill",
+        "image":  "images/categories/Restorative/composite z fill - 780 LE.jpg",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  230,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite zircon fill - 650 LE.jpg",
+        "price":  650,
+        "name":  "Composite Zircon Fill",
+        "image":  "images/categories/Restorative/composite zircon fill - 650 LE.jpg",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  231,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "ez_shine composite  polishing paste - 120 LE.webp",
+        "price":  120,
+        "name":  "Ez_Shine Composite Polishing Paste",
+        "image":  "images/categories/Restorative/ez_shine composite  polishing paste - 120 LE.webp",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  232,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "flow alpha flow - 185 LE.webp",
+        "price":  185,
+        "name":  "Flow Alpha Flow",
+        "image":  "images/categories/Restorative/flow alpha flow - 185 LE.webp",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  233,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "flow B\u0026E - 250 LE.jpg",
+        "price":  250,
+        "name":  "Flow B\u0026E",
+        "image":  "images/categories/Restorative/flow B\u0026E - 250 LE.jpg",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  234,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "flow capsule SDR plus - 160 LE.jpg",
+        "price":  160,
+        "name":  "Flow Capsule Sdr Plus",
+        "image":  "images/categories/Restorative/flow capsule SDR plus - 160 LE.jpg",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  235,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "flow charmfil - 270 LE.jpg",
+        "price":  270,
+        "name":  "Flow Charmfil",
+        "image":  "images/categories/Restorative/flow charmfil - 270 LE.jpg",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  236,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "flow diafil - 260 LE.jpg",
+        "price":  260,
+        "name":  "Flow Diafil",
+        "image":  "images/categories/Restorative/flow diafil - 260 LE.jpg",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  237,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "flow i-flow - 500 LE.jpg",
+        "price":  500,
+        "name":  "Flow I-Flow",
+        "image":  "images/categories/Restorative/flow i-flow - 500 LE.jpg",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  238,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "flow max fill bulk flow - 175 LE.png",
+        "price":  175,
+        "name":  "Flow Max Fill Bulk Flow",
+        "image":  "images/categories/Restorative/flow max fill bulk flow - 175 LE.png",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  239,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "flow nexcomp flow - 270 LE.jpg",
+        "price":  270,
+        "name":  "Flow Nexcomp Flow",
+        "image":  "images/categories/Restorative/flow nexcomp flow - 270 LE.jpg",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  240,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "flow ruby - 170 LE.webp",
+        "price":  170,
+        "name":  "Flow Ruby",
+        "image":  "images/categories/Restorative/flow ruby - 170 LE.webp",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  241,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "flow T com - 150 LE.jpg",
+        "price":  150,
+        "name":  "Flow T Com",
+        "image":  "images/categories/Restorative/flow T com - 150 LE.jpg",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  242,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "flow tetric n power flow 2 - 800 LE.png",
+        "price":  800,
+        "name":  "Flow Tetric N Power Flow 2",
+        "image":  "images/categories/Restorative/flow tetric n power flow 2 - 800 LE.png",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  243,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "glass liner - 700 LE.webp",
+        "price":  700,
+        "name":  "Glass Liner",
+        "image":  "images/categories/Restorative/glass liner - 700 LE.webp",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  244,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "refel saddle matrix - 230 LE.jpg",
+        "price":  230,
+        "name":  "Refel Saddle Matrix",
+        "image":  "images/categories/Restorative/refel saddle matrix - 230 LE.jpg",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  245,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "refel sectional matrix tor vm  - 140 LE.jpg",
+        "price":  140,
+        "name":  "Refel Sectional Matrix Tor Vm",
+        "image":  "images/categories/Restorative/refel sectional matrix tor vm  - 140 LE.jpg",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  246,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "saddle matrix tor vm large - 790 LE.jpg",
+        "price":  790,
+        "name":  "Saddle Matrix Tor Vm Large",
+        "image":  "images/categories/Restorative/saddle matrix tor vm large - 790 LE.jpg",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  247,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "saddle matrix torvm small - 500 LE.jpg",
+        "price":  500,
+        "name":  "Saddle Matrix Torvm Small",
+        "image":  "images/categories/Restorative/saddle matrix torvm small - 500 LE.jpg",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  248,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "sectional matrix tor vm large - 800 LE.jpg",
+        "price":  800,
+        "name":  "Sectional Matrix Tor Vm Large",
+        "image":  "images/categories/Restorative/sectional matrix tor vm large - 800 LE.jpg",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  249,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "top shine composite  polishing paste - 50 LE.png",
+        "price":  50,
+        "name":  "Top Shine Composite Polishing Paste",
+        "image":  "images/categories/Restorative/top shine composite  polishing paste - 50 LE.png",
+        "folderName":  "Restorative"
+    },
+    {
+        "id":  250,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "articulating paper sweden - 190 LE.jpg",
+        "price":  190,
+        "name":  "Articulating Paper Sweden",
+        "image":  "images/categories/Restorative 2/articulating paper sweden - 190 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  251,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "articulating paper zt - 120 LE.jpg",
+        "price":  120,
+        "name":  "Articulating Paper Zt",
+        "image":  "images/categories/Restorative 2/articulating paper zt - 120 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  252,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "bioclear plastic wedge - 45 LE.jpg",
+        "price":  45,
+        "name":  "Bioclear Plastic Wedge",
+        "image":  "images/categories/Restorative 2/bioclear plastic wedge - 45 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  253,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "Bisco bond 4 ml - 2150 LE.jpg",
+        "price":  2150,
+        "name":  "Bisco Bond 4 Ml",
+        "image":  "images/categories/Restorative 2/Bisco bond 4 ml - 2150 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  254,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "bond bisco .5ml - 430 LE.jpg",
+        "price":  430,
+        "name":  "Bond Bisco .5Ml",
+        "image":  "images/categories/Restorative 2/bond bisco .5ml - 430 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  255,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "bond bisco 6 ml - 3000 LE.jpg",
+        "price":  3000,
+        "name":  "Bond Bisco 6 Ml",
+        "image":  "images/categories/Restorative 2/bond bisco 6 ml - 3000 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  256,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "bond one coat 7 - 2450 LE.jpg",
+        "price":  2450,
+        "name":  "Bond One Coat 7",
+        "image":  "images/categories/Restorative 2/bond one coat 7 - 2450 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  257,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "bond one coat bond sl - 670 LE.jpg",
+        "price":  670,
+        "name":  "Bond One Coat Bond Sl",
+        "image":  "images/categories/Restorative 2/bond one coat bond sl - 670 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  258,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "caries detector Cario Finder - 220 LE.webp",
+        "price":  220,
+        "name":  "Caries Detector Cario Finder",
+        "image":  "images/categories/Restorative 2/caries detector Cario Finder - 220 LE.webp",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  259,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "charm core - 700 LE.jpg",
+        "price":  700,
+        "name":  "Charm Core",
+        "image":  "images/categories/Restorative 2/charm core - 700 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  260,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite bruches - 40 LE.webp",
+        "price":  40,
+        "name":  "Composite Bruches",
+        "image":  "images/categories/Restorative 2/composite bruches - 40 LE.webp",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  261,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "contra key - 40 LE.jpg",
+        "price":  40,
+        "name":  "Contra Key",
+        "image":  "images/categories/Restorative 2/contra key - 40 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  262,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "etch b-etch - 30 LE.jpg",
+        "price":  30,
+        "name":  "Etch B-Etch",
+        "image":  "images/categories/Restorative 2/etch b-etch - 30 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  263,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "etch chem - 30 LE.jpg",
+        "price":  30,
+        "name":  "Etch Chem",
+        "image":  "images/categories/Restorative 2/etch chem - 30 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  264,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "etch i gel - 200 LE.jpg",
+        "price":  200,
+        "name":  "Etch I Gel",
+        "image":  "images/categories/Restorative 2/etch i gel - 200 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  265,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "etch jade - 190 LE.jpg",
+        "price":  190,
+        "name":  "Etch Jade",
+        "image":  "images/categories/Restorative 2/etch jade - 190 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  266,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "etch meta - 100 LE.webp",
+        "price":  100,
+        "name":  "Etch Meta",
+        "image":  "images/categories/Restorative 2/etch meta - 100 LE.webp",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  267,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "glass ionemer chinese  - 90 LE.jpg",
+        "price":  90,
+        "name":  "Glass Ionemer Chinese",
+        "image":  "images/categories/Restorative 2/glass ionemer chinese  - 90 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  268,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "glass ionemer kromoglass large - 1330 LE.jpg",
+        "price":  1330,
+        "name":  "Glass Ionemer Kromoglass Large",
+        "image":  "images/categories/Restorative 2/glass ionemer kromoglass large - 1330 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  269,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "glass ionemer kromoglass small - 670 LE.jpg",
+        "price":  670,
+        "name":  "Glass Ionemer Kromoglass Small",
+        "image":  "images/categories/Restorative 2/glass ionemer kromoglass small - 670 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  270,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "glass ionemer medifil - 1650 LE.jpg",
+        "price":  1650,
+        "name":  "Glass Ionemer Medifil",
+        "image":  "images/categories/Restorative 2/glass ionemer medifil - 1650 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  271,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "glass ionemer micron filling - 520 LE.jpg",
+        "price":  520,
+        "name":  "Glass Ionemer Micron Filling",
+        "image":  "images/categories/Restorative 2/glass ionemer micron filling - 520 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  272,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "glass ionemer nova filling - 670 LE.jpg",
+        "price":  670,
+        "name":  "Glass Ionemer Nova Filling",
+        "image":  "images/categories/Restorative 2/glass ionemer nova filling - 670 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  273,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "han core - 700 LE.jpg",
+        "price":  700,
+        "name":  "Han Core",
+        "image":  "images/categories/Restorative 2/han core - 700 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  274,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "indecator cheets bms - 10 LE.jpg",
+        "price":  10,
+        "name":  "Indecator Cheets Bms",
+        "image":  "images/categories/Restorative 2/indecator cheets bms - 10 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  275,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "kit kenda polishing composite - 380 LE.jpg",
+        "price":  380,
+        "name":  "Kit Kenda Polishing Composite",
+        "image":  "images/categories/Restorative 2/kit kenda polishing composite - 380 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  276,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "micron cement - 515 LE.jpg",
+        "price":  515,
+        "name":  "Micron Cement",
+        "image":  "images/categories/Restorative 2/micron cement - 515 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  277,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "miiror relax front surface - 125 LE.jpg",
+        "price":  125,
+        "name":  "Miiror Relax Front Surface",
+        "image":  "images/categories/Restorative 2/miiror relax front surface - 125 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  278,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "silicon polisher - 160 LE.webp",
+        "price":  160,
+        "name":  "Silicon Polisher",
+        "image":  "images/categories/Restorative 2/silicon polisher - 160 LE.webp",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  279,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "super etch - 100 LE.webp",
+        "price":  100,
+        "name":  "Super Etch",
+        "image":  "images/categories/Restorative 2/super etch - 100 LE.webp",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  280,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "supercem resin cement - 1070 LE.jpg",
+        "price":  1070,
+        "name":  "Supercem Resin Cement",
+        "image":  "images/categories/Restorative 2/supercem resin cement - 1070 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  281,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "thercal - 800 LE.webp",
+        "price":  800,
+        "name":  "Thercal",
+        "image":  "images/categories/Restorative 2/thercal - 800 LE.webp",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  282,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "tips cement - 200 LE.jpg",
+        "price":  200,
+        "name":  "Tips Cement",
+        "image":  "images/categories/Restorative 2/tips cement - 200 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  283,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "tips core - 200 LE.jpg",
+        "price":  200,
+        "name":  "Tips Core",
+        "image":  "images/categories/Restorative 2/tips core - 200 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  284,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "tips etch - 90 LE.png",
+        "price":  90,
+        "name":  "Tips Etch",
+        "image":  "images/categories/Restorative 2/tips etch - 90 LE.png",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  285,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "tips flowable - 90 LE.jpg",
+        "price":  90,
+        "name":  "Tips Flowable",
+        "image":  "images/categories/Restorative 2/tips flowable - 90 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  286,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "tofflmire matrix j band - 7 LE.jpg",
+        "price":  7,
+        "name":  "Tofflmire Matrix J Band",
+        "image":  "images/categories/Restorative 2/tofflmire matrix j band - 7 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  287,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "tofflmire matrix T band - 7 LE.jpg",
+        "price":  7,
+        "name":  "Tofflmire Matrix T Band",
+        "image":  "images/categories/Restorative 2/tofflmire matrix T band - 7 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  288,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "twinkles piercing -  40 LE.jpg",
+        "price":  40,
+        "name":  "Twinkles Piercing",
+        "image":  "images/categories/Restorative 2/twinkles piercing -  40 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  289,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "wedge plastic - 2 LE.webp",
+        "price":  2,
+        "name":  "Wedge Plastic",
+        "image":  "images/categories/Restorative 2/wedge plastic - 2 LE.webp",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  290,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "white bur composite finishing - 20 LE.webp",
+        "price":  20,
+        "name":  "White Bur Composite Finishing",
+        "image":  "images/categories/Restorative 2/white bur composite finishing - 20 LE.webp",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  291,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "zt ring - 160 LE.webp",
+        "price":  160,
+        "name":  "Zt Ring",
+        "image":  "images/categories/Restorative 2/zt ring - 160 LE.webp",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  292,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "zt twist - 680 LE.jpg",
+        "price":  680,
+        "name":  "Zt Twist",
+        "image":  "images/categories/Restorative 2/zt twist - 680 LE.jpg",
+        "folderName":  "Restorative 2"
+    },
+    {
+        "id":  293,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "acrotemp temporary - 90 LE.png",
+        "price":  90,
+        "name":  "Acrotemp Temporary",
+        "image":  "images/categories/Restorative 3/acrotemp temporary - 90 LE.png",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  294,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "amalgam carrier - 120 LE.webp",
+        "price":  120,
+        "name":  "Amalgam Carrier",
+        "image":  "images/categories/Restorative 3/amalgam carrier - 120 LE.webp",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  295,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "bond palfique 5ml - 2500 LE.jpg",
+        "price":  2500,
+        "name":  "Bond Palfique 5Ml",
+        "image":  "images/categories/Restorative 3/bond palfique 5ml - 2500 LE.jpg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  296,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "bur\u0026file holder rotex - 130 LE.jpg",
+        "price":  130,
+        "name":  "Bur\u0026File Holder Rotex",
+        "image":  "images/categories/Restorative 3/bur\u0026file holder rotex - 130 LE.jpg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  297,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "burs chinese - 60 LE.jpeg",
+        "price":  60,
+        "name":  "Burs Chinese",
+        "image":  "images/categories/Restorative 3/burs chinese - 60 LE.jpeg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  298,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "carver gold plated - 330 LE.jpeg",
+        "price":  330,
+        "name":  "Carver Gold Plated",
+        "image":  "images/categories/Restorative 3/carver gold plated - 330 LE.jpeg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  299,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "celluloid matrix - 65 LE.webp",
+        "price":  65,
+        "name":  "Celluloid Matrix",
+        "image":  "images/categories/Restorative 3/celluloid matrix - 65 LE.webp",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  300,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "clamp pk - 30 LE.jpeg",
+        "price":  30,
+        "name":  "Clamp Pk",
+        "image":  "images/categories/Restorative 3/clamp pk - 30 LE.jpeg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  301,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite capsule gun - 220 LE.jpeg",
+        "price":  220,
+        "name":  "Composite Capsule Gun",
+        "image":  "images/categories/Restorative 3/composite capsule gun - 220 LE.jpeg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  302,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "composite polishing kit chinese - 160 LE.jpeg",
+        "price":  160,
+        "name":  "Composite Polishing Kit Chinese",
+        "image":  "images/categories/Restorative 3/composite polishing kit chinese - 160 LE.jpeg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  303,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "core tips - 200 LE.jpeg",
+        "price":  200,
+        "name":  "Core Tips",
+        "image":  "images/categories/Restorative 3/core tips - 200 LE.jpeg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  304,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "core tips small - 90 LE.jpeg",
+        "price":  90,
+        "name":  "Core Tips Small",
+        "image":  "images/categories/Restorative 3/core tips small - 90 LE.jpeg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  305,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "disk kit chienes - 160 LE.jpeg",
+        "price":  160,
+        "name":  "Disk Kit Chienes",
+        "image":  "images/categories/Restorative 3/disk kit chienes - 160 LE.jpeg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  306,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "double check retractor - 20 LE.webp",
+        "price":  20,
+        "name":  "Double Check Retractor",
+        "image":  "images/categories/Restorative 3/double check retractor - 20 LE.webp",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  307,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "dura dam rubber dam sheets - 340 LE.webp",
+        "price":  340,
+        "name":  "Dura Dam Rubber Dam Sheets",
+        "image":  "images/categories/Restorative 3/dura dam rubber dam sheets - 340 LE.webp",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  308,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "fiber post bioloren - 75 LE.avif",
+        "price":  75,
+        "name":  "Fiber Post Bioloren",
+        "image":  "images/categories/Restorative 3/fiber post bioloren - 75 LE.avif",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  309,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "fiber post chinese - 4 LE.jpeg",
+        "price":  4,
+        "name":  "Fiber Post Chinese",
+        "image":  "images/categories/Restorative 3/fiber post chinese - 4 LE.jpeg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  310,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "fiber post luster dent - 100 LE.jpeg",
+        "price":  100,
+        "name":  "Fiber Post Luster Dent",
+        "image":  "images/categories/Restorative 3/fiber post luster dent - 100 LE.jpeg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  311,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "finishing strips 25 pcs - 60 LE.webp",
+        "price":  60,
+        "name":  "Finishing Strips 25 Pcs",
+        "image":  "images/categories/Restorative 3/finishing strips 25 pcs - 60 LE.webp",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  312,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "finishing strips 75 pcs - 135 LE.webp",
+        "price":  135,
+        "name":  "Finishing Strips 75 Pcs",
+        "image":  "images/categories/Restorative 3/finishing strips 75 pcs - 135 LE.webp",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  313,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "flamingo rubber dam sheets - 330 LE.jpeg",
+        "price":  330,
+        "name":  "Flamingo Rubber Dam Sheets",
+        "image":  "images/categories/Restorative 3/flamingo rubber dam sheets - 330 LE.jpeg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  314,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "flex dam - 130 LE.jpg",
+        "price":  130,
+        "name":  "Flex Dam",
+        "image":  "images/categories/Restorative 3/flex dam - 130 LE.jpg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  315,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "fuji light cure capsule - 145 LE.jpg",
+        "price":  145,
+        "name":  "Fuji Light Cure Capsule",
+        "image":  "images/categories/Restorative 3/fuji light cure capsule - 145 LE.jpg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  316,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "henry rubber dam sheets - 300 LE.jpg",
+        "price":  300,
+        "name":  "Henry Rubber Dam Sheets",
+        "image":  "images/categories/Restorative 3/henry rubber dam sheets - 300 LE.jpg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  317,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "jen bulk flow - 1150 LE.jpg",
+        "price":  1150,
+        "name":  "Jen Bulk Flow",
+        "image":  "images/categories/Restorative 3/jen bulk flow - 1150 LE.jpg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  318,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "kit fiber chienese - 75 LE.jpg",
+        "price":  75,
+        "name":  "Kit Fiber Chienese",
+        "image":  "images/categories/Restorative 3/kit fiber chienese - 75 LE.jpg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  319,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "litark temporary - 240 LE.jpg",
+        "price":  240,
+        "name":  "Litark Temporary",
+        "image":  "images/categories/Restorative 3/litark temporary - 240 LE.jpg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  320,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "matrix band roll - 70 LE.jpg",
+        "price":  70,
+        "name":  "Matrix Band Roll",
+        "image":  "images/categories/Restorative 3/matrix band roll - 70 LE.jpg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  321,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "metal post - 5 LE.jpeg",
+        "price":  5,
+        "name":  "Metal Post",
+        "image":  "images/categories/Restorative 3/metal post - 5 LE.jpeg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  322,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "metal post russia - 20 LE.jpg",
+        "price":  20,
+        "name":  "Metal Post Russia",
+        "image":  "images/categories/Restorative 3/metal post russia - 20 LE.jpg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  323,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "nucavfil temporary - 180 LE.jpg",
+        "price":  180,
+        "name":  "Nucavfil Temporary",
+        "image":  "images/categories/Restorative 3/nucavfil temporary - 180 LE.jpg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  324,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "ot primer - 230 LE.jpeg",
+        "price":  230,
+        "name":  "Ot Primer",
+        "image":  "images/categories/Restorative 3/ot primer - 230 LE.jpeg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  325,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "polishing disks tor vm - 340 LE.jpeg",
+        "price":  340,
+        "name":  "Polishing Disks Tor Vm",
+        "image":  "images/categories/Restorative 3/polishing disks tor vm - 340 LE.jpeg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  326,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "polishing prophy cup zt - 170 LE.jpeg",
+        "price":  170,
+        "name":  "Polishing Prophy Cup Zt",
+        "image":  "images/categories/Restorative 3/polishing prophy cup zt - 170 LE.jpeg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  327,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "post Dentsply - 45 LE.jpg",
+        "price":  45,
+        "name":  "Post Dentsply",
+        "image":  "images/categories/Restorative 3/post Dentsply - 45 LE.jpg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  328,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "post key chienese - 30 LE.jpeg",
+        "price":  30,
+        "name":  "Post Key Chienese",
+        "image":  "images/categories/Restorative 3/post key chienese - 30 LE.jpeg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  329,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "proximal matrix tor vm - 200 LE.jpg",
+        "price":  200,
+        "name":  "Proximal Matrix Tor Vm",
+        "image":  "images/categories/Restorative 3/proximal matrix tor vm - 200 LE.jpg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  330,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "riva light cure - 135 LE.jpg",
+        "price":  135,
+        "name":  "Riva Light Cure",
+        "image":  "images/categories/Restorative 3/riva light cure - 135 LE.jpg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  331,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "riva self cure - 125 LE.jpg",
+        "price":  125,
+        "name":  "Riva Self Cure",
+        "image":  "images/categories/Restorative 3/riva self cure - 125 LE.jpg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  332,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "rubber dam forceps - 300 LE.jpg",
+        "price":  300,
+        "name":  "Rubber Dam Forceps",
+        "image":  "images/categories/Restorative 3/rubber dam forceps - 300 LE.jpg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  333,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "rubber dam frame metal - 40 LE.jpeg",
+        "price":  40,
+        "name":  "Rubber Dam Frame Metal",
+        "image":  "images/categories/Restorative 3/rubber dam frame metal - 40 LE.jpeg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  334,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "rubber dam frame plastic - 80 LE.jpg",
+        "price":  80,
+        "name":  "Rubber Dam Frame Plastic",
+        "image":  "images/categories/Restorative 3/rubber dam frame plastic - 80 LE.jpg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  335,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "rubber dam punch - 400 LE.png",
+        "price":  400,
+        "name":  "Rubber Dam Punch",
+        "image":  "images/categories/Restorative 3/rubber dam punch - 400 LE.png",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  336,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "sanctuary rubber dam sheets - 390 LE.webp",
+        "price":  390,
+        "name":  "Sanctuary Rubber Dam Sheets",
+        "image":  "images/categories/Restorative 3/sanctuary rubber dam sheets - 390 LE.webp",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  337,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "sectional matrix chinese - 200 LE.webp",
+        "price":  200,
+        "name":  "Sectional Matrix Chinese",
+        "image":  "images/categories/Restorative 3/sectional matrix chinese - 200 LE.webp",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  338,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "silk blue rubber dam sheets - 470 LE.webp",
+        "price":  470,
+        "name":  "Silk Blue Rubber Dam Sheets",
+        "image":  "images/categories/Restorative 3/silk blue rubber dam sheets - 470 LE.webp",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  339,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "single cheek retractor - 15 LE.webp",
+        "price":  15,
+        "name":  "Single Cheek Retractor",
+        "image":  "images/categories/Restorative 3/single cheek retractor - 15 LE.webp",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  340,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "st st korea - 65 LE.jpeg",
+        "price":  65,
+        "name":  "St St Korea",
+        "image":  "images/categories/Restorative 3/st st korea - 65 LE.jpeg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  341,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "tein anterior matrix tor vm - 200 LE.jpeg",
+        "price":  200,
+        "name":  "Tein Anterior Matrix Tor Vm",
+        "image":  "images/categories/Restorative 3/tein anterior matrix tor vm - 200 LE.jpeg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  342,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "tofflmire matrix band - 90 LE.jpeg",
+        "price":  90,
+        "name":  "Tofflmire Matrix Band",
+        "image":  "images/categories/Restorative 3/tofflmire matrix band - 90 LE.jpeg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  343,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "westcode burs - 7 LE.jpeg",
+        "price":  7,
+        "name":  "Westcode Burs",
+        "image":  "images/categories/Restorative 3/westcode burs - 7 LE.jpeg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  344,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "wooden wedge - 130 LE.jpg",
+        "price":  130,
+        "name":  "Wooden Wedge",
+        "image":  "images/categories/Restorative 3/wooden wedge - 130 LE.jpg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  345,
+        "hasVariants":  false,
+        "category":  "Restorative",
+        "fileName":  "zt polishing kit - 180 LE.jpg",
+        "price":  180,
+        "name":  "Zt Polishing Kit",
+        "image":  "images/categories/Restorative 3/zt polishing kit - 180 LE.jpg",
+        "folderName":  "Restorative 3"
+    },
+    {
+        "id":  346,
+        "hasVariants":  false,
+        "category":  "Surgery",
+        "fileName":  "alveogel - 60 LE.jpeg",
+        "price":  60,
+        "name":  "Alveogel",
+        "image":  "images/categories/Surgery/alveogel - 60 LE.jpeg",
+        "folderName":  "Surgery"
+    },
+    {
+        "id":  347,
+        "hasVariants":  false,
+        "category":  "Surgery",
+        "fileName":  "alvocure - 500 LE.jpeg",
+        "price":  500,
+        "name":  "Alvocure",
+        "image":  "images/categories/Surgery/alvocure - 500 LE.jpeg",
+        "folderName":  "Surgery"
+    },
+    {
+        "id":  348,
+        "hasVariants":  false,
+        "category":  "Surgery",
+        "fileName":  "Bone file - 100 LE.jpg",
+        "price":  100,
+        "name":  "Bone File",
+        "image":  "images/categories/Surgery/Bone file - 100 LE.jpg",
+        "folderName":  "Surgery"
+    },
+    {
+        "id":  349,
+        "hasVariants":  false,
+        "category":  "Surgery",
+        "fileName":  "elevator pakistane straight elevator - curved elevator - 110 LE.jpeg",
+        "price":  110,
+        "name":  "Elevator Pakistane Straight Elevator",
+        "image":  "images/categories/Surgery/elevator pakistane straight elevator - curved elevator - 110 LE.jpeg",
+        "folderName":  "Surgery"
+    },
+    {
+        "id":  350,
+        "hasVariants":  true,
+        "category":  "Surgery",
+        "fileName":  "forceps pakistane upper anterior - upper premolar - upper molar - lower anterior - lower premolar - lower molar - 230 LE.webp",
+        "price":  230,
+        "name":  "Forceps Pakistane Upper Anterior",
+        "variants":  [
+                         {
+                             "price":  230,
+                             "size":  "upper premolar"
+                         },
+                         {
+                             "price":  230,
+                             "size":  "upper molar"
+                         },
+                         {
+                             "price":  230,
+                             "size":  "lower anterior"
+                         },
+                         {
+                             "price":  230,
+                             "size":  "lower premolar"
+                         },
+                         {
+                             "price":  230,
+                             "size":  "lower molar"
+                         }
+                     ],
+        "image":  "images/categories/Surgery/forceps pakistane upper anterior - upper premolar - upper molar - lower anterior - lower premolar - lower molar - 230 LE.webp",
+        "folderName":  "Surgery"
+    },
+    {
+        "id":  351,
+        "hasVariants":  false,
+        "category":  "Surgery",
+        "fileName":  "minisota retractor - 45 LE.jpeg",
+        "price":  45,
+        "name":  "Minisota Retractor",
+        "image":  "images/categories/Surgery/minisota retractor - 45 LE.jpeg",
+        "folderName":  "Surgery"
+    },
+    {
+        "id":  352,
+        "hasVariants":  false,
+        "category":  "Surgery",
+        "fileName":  "mosquito needle holder - 80 LE.webp",
+        "price":  80,
+        "name":  "Mosquito Needle Holder",
+        "image":  "images/categories/Surgery/mosquito needle holder - 80 LE.webp",
+        "folderName":  "Surgery"
+    },
+    {
+        "id":  353,
+        "hasVariants":  false,
+        "category":  "Surgery",
+        "fileName":  "needle holder - 100 LE.jpg",
+        "price":  100,
+        "name":  "Needle Holder",
+        "image":  "images/categories/Surgery/needle holder - 100 LE.jpg",
+        "folderName":  "Surgery"
+    },
+    {
+        "id":  354,
+        "hasVariants":  false,
+        "category":  "Surgery",
+        "fileName":  "periosteal elevator - 110 LE.png",
+        "price":  110,
+        "name":  "Periosteal Elevator",
+        "image":  "images/categories/Surgery/periosteal elevator - 110 LE.png",
+        "folderName":  "Surgery"
+    },
+    {
+        "id":  355,
+        "hasVariants":  false,
+        "category":  "Surgery",
+        "fileName":  "scalpel handle - 35 LE.jpeg",
+        "price":  35,
+        "name":  "Scalpel Handle",
+        "image":  "images/categories/Surgery/scalpel handle - 35 LE.jpeg",
+        "folderName":  "Surgery"
+    },
+    {
+        "id":  356,
+        "hasVariants":  true,
+        "category":  "Surgery",
+        "fileName":  "surgical blade - 11 - 15 - 200 LE.jpg",
+        "price":  200,
+        "name":  "Surgical Blade",
+        "variants":  [
+                         {
+                             "price":  200,
+                             "size":  "11"
+                         },
+                         {
+                             "price":  200,
+                             "size":  "15"
+                         }
+                     ],
+        "image":  "images/categories/Surgery/surgical blade - 11 - 15 - 200 LE.jpg",
+        "folderName":  "Surgery"
+    },
+    {
+        "id":  357,
+        "hasVariants":  true,
+        "category":  "Surgery",
+        "fileName":  "suture polypropylene - 3#0 - 4#0 - 200 LE.png",
+        "price":  200,
+        "name":  "Suture Polypropylene",
+        "variants":  [
+                         {
+                             "price":  200,
+                             "size":  "3#0"
+                         },
+                         {
+                             "price":  200,
+                             "size":  "4#0"
+                         }
+                     ],
+        "image":  "images/categories/Surgery/suture polypropylene - 3#0 - 4#0 - 200 LE.png",
+        "folderName":  "Surgery"
+    },
+    {
+        "id":  358,
+        "hasVariants":  true,
+        "category":  "Surgery",
+        "fileName":  "suture silk - 3#0 - 4#0 - 200 LE.webp",
+        "price":  200,
+        "name":  "Suture Silk",
+        "variants":  [
+                         {
+                             "price":  200,
+                             "size":  "3#0"
+                         },
+                         {
+                             "price":  200,
+                             "size":  "4#0"
+                         }
+                     ],
+        "image":  "images/categories/Surgery/suture silk - 3#0 - 4#0 - 200 LE.webp",
+        "folderName":  "Surgery"
+    },
+    {
+        "id":  359,
+        "hasVariants":  true,
+        "category":  "Surgery",
+        "fileName":  "suture vicryl - 3#0 - 4#0 - 570 LE.jpg",
+        "price":  570,
+        "name":  "Suture Vicryl",
+        "variants":  [
+                         {
+                             "price":  570,
+                             "size":  "3#0"
+                         },
+                         {
+                             "price":  570,
+                             "size":  "4#0"
+                         }
+                     ],
+        "image":  "images/categories/Surgery/suture vicryl - 3#0 - 4#0 - 570 LE.jpg",
+        "folderName":  "Surgery"
+    }
+]
